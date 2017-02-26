@@ -20,7 +20,7 @@ import javax.swing.JPasswordField;
 public class BeginingGameScreen extends JFrame implements ActionListener {
 	
 	//Play boolean
-	public boolean GameOn = true;
+	public boolean GameOn = false;
 	
 	
 	//JLabel
@@ -66,7 +66,7 @@ public class BeginingGameScreen extends JFrame implements ActionListener {
 	    
 	    
 	    // Positioning
-	    //						x	       y	width	height
+	    //						x	y	width	height
 	    PlayOthello.setBounds((x/2)-75, (y/2), 150, 50);
 	    Exit.setBounds((x/2)-75, ((y/2)+100), 150, 50);
 	    Othello.setBounds(100, 25, 500, 200);
