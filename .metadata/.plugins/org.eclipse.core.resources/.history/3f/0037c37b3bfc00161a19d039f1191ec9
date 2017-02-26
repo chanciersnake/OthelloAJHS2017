@@ -1,0 +1,51 @@
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.FlowLayout;
+import java.awt.Font;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.BoxLayout;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+
+public class BeginingGameScreen extends JFrame implements ActionListener {
+
+	//JPanel
+	JPanel pnlButton = new JPanel();
+	//Buttons
+	JButton btnAddFlight = new JButton("Add Flight");
+
+	public BeginingGameScreen() {
+
+	    //JFrame layout
+	    this.setLayout(null);
+	    this.setVisible(true);
+		this.setSize(800, 800);
+		setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
+
+	    //JPanel layout
+	    pnlButton.setLayout(null);
+
+	    //Adding to JFrame
+	    pnlButton.add(btnAddFlight);
+	    add(pnlButton);
+
+	    // Positioning
+	    pnlButton.setLocation(0,0);
+
+	}
+	
+
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		// TODO Auto-generated method stub
+		if(!arg0.getActionCommand().equals("ENT")&&!arg0.getActionCommand().equals("CLR")){
+			
+			
+		}
+	}
+}

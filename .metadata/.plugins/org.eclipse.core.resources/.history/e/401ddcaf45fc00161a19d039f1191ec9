@@ -1,0 +1,57 @@
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.FlowLayout;
+import java.awt.Font;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.BoxLayout;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+
+public class BeginingGameScreen extends JFrame implements ActionListener {
+
+	
+	
+	//JPanel
+	JPanel panel = new JPanel();
+	//Buttons
+	JButton button = new JButton("TEST");
+	
+
+	public BeginingGameScreen() {
+
+	    //JFrame layout
+		this.setSize(500, 500);
+	    this.setVisible(true);
+	    
+		
+		setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
+
+	    //JPanel layout
+	    panel.setLayout(null);
+
+	    // Positioning
+	    button.setBounds(50, 100, 100, 60);
+	    
+	    //Adding to JFrame
+	    panel.add(button);
+	    this.add(panel);
+	    
+	    
+
+	   
+
+	}
+	
+
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		
+			
+			
+		}
+	}
