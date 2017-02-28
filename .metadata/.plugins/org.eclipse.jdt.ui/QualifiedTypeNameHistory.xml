@@ -8,4 +8,5 @@
 <fullyQualifiedTypeName name="org.w3c.dom.ranges.Range"/>
 <fullyQualifiedTypeName name="javax.swing.JLabel"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 </qualifiedTypeNameHistroy>

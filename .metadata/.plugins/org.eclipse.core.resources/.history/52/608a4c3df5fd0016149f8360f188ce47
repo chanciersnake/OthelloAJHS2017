@@ -10,7 +10,6 @@ import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 
@@ -24,11 +23,6 @@ public class Grid extends JFrame implements ActionListener {
 
 	public boolean Player = true;		//true = white ..... false = black
 	public boolean Firstturn = true;
-	public String BorW;
-	public int GetActionCommand;
-	public int Down;
-	public int LeftRight;
-	
 	
 	
 	JButton[] theButtons = new JButton[65];
@@ -50,10 +44,10 @@ public class Grid extends JFrame implements ActionListener {
 			}
 		}
 		if(Firstturn == true){
-			twoDim[3][3] = Chips.cBLACK;
-			twoDim[3][4] = Chips.cWHITE;
-			twoDim[4][3] = Chips.cWHITE;
-			twoDim[4][4] = Chips.cBLACK;
+			twoDim[3][2] = Chips.cBLACK;
+			twoDim[3][3] = Chips.cWHITE;
+			twoDim[4][2] = Chips.cWHITE;
+			twoDim[4][3] = Chips.cBLACK;
 		}
 	}
 	
@@ -155,62 +149,21 @@ public class Grid extends JFrame implements ActionListener {
 		label.updateUI();
 	}
 	
-	public void CheckVertical(){
-		if (Player == true){ 		//white
-			HowManyChipsBellow();
-			for(;Down > 0;Down--){
-				//twoDim
-			}
-		}
-	}
-	
-	public void CheckHorizontal(){
-		
-	}
-	
-	public void CheckDiagnol(){
-		
-	}
-	
-	public void HowManyChipsBellow(){
-		Down = 8 - GetActionCommand;
-	}
-	
 	
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
 		// TODO Auto-generated method stub
 		
-		//System.out.println(arg0.getActionCommand());
-		//System.out.println(Player);
-		
-		
-		GetActionCommand = Integer.parseInt(arg0.getActionCommand());
-		
-		if(Player == true){
-			BorW = "white";
-		}else{
-			BorW = "black";
-		}
+		System.out.println(arg0.getActionCommand());
+		System.out.println(Player);
 		
 		
 		for (int i = 0; i < 64; i++) {
 			
-			if((arg0.getActionCommand().equals(i + ""))&&(twoDim[Integer.parseInt(arg0.getActionCommand())/8][Integer.parseInt(arg0.getActionCommand())%8] == Chips.cWHITE)||
-					(twoDim[Integer.parseInt(arg0.getActionCommand())/8][Integer.parseInt(arg0.getActionCommand())%8] == Chips.cBLACK)){
-				JOptionPane.showMessageDialog(null, "Error player " + BorW + " placed a chip on top of another chip. Try again.");
-				break;
-			}
-			
 			if((arg0.getActionCommand().equals(i + ""))&&(Player == true)){
 				theButtons[Integer.parseInt(arg0.getActionCommand())].setBackground(Color.WHITE);
 				twoDim[Integer.parseInt(arg0.getActionCommand())/8][Integer.parseInt(arg0.getActionCommand())%8] = Chips.cWHITE;
-				
-				//CheckVertical();
-				//CheckHorizontal();
-				//CheckDiagnol();
-				
-				//System.out.println(twoDim[Integer.parseInt(arg0.getActionCommand())/8][Integer.parseInt(arg0.getActionCommand())%8]);
+				System.out.println(twoDim[Integer.parseInt(arg0.getActionCommand())/8][Integer.parseInt(arg0.getActionCommand())%8]);
 				refreshtheJLabel();
 				Player = false;
 				break;
@@ -220,12 +173,7 @@ public class Grid extends JFrame implements ActionListener {
 			if((arg0.getActionCommand().equals(i + ""))&&(Player == false)){
 				theButtons[Integer.parseInt(arg0.getActionCommand())].setBackground(Color.BLACK);
 				twoDim[Integer.parseInt(arg0.getActionCommand())/8][Integer.parseInt(arg0.getActionCommand())%8] = Chips.cBLACK;
-				
-				//CheckVertical();
-				//CheckHorizontal();
-				//CheckDiagnol();
-				
-				//System.out.println(twoDim[Integer.parseInt(arg0.getActionCommand())/8][Integer.parseInt(arg0.getActionCommand())%8]);
+				System.out.println(twoDim[Integer.parseInt(arg0.getActionCommand())/8][Integer.parseInt(arg0.getActionCommand())%8]);
 				refreshtheJLabel();
 				Player = true;
 				break;
