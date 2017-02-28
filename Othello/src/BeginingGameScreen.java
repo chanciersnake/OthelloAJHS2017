@@ -101,6 +101,7 @@ public class BeginingGameScreen extends JFrame implements ActionListener {
 	public void actionPerformed(ActionEvent arg0) {
 		if(arg0.getActionCommand().equals("PLAY")){
 			Grid Vince = new Grid();
+			//EnumsAndGridTalkTEST Vince = new EnumsAndGridTalkTEST();
 			this.setVisible(false);
 		}else{
 			GameOn = false;
