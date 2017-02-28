@@ -16,8 +16,8 @@ import org.w3c.dom.ranges.Range;
 
 public class Grid extends JFrame implements ActionListener {
 
-	public boolean Player = true;		//true = white ..... false = black
-	
+	public boolean Player = false;		//true = white ..... false = black
+	//public int i;
 	
 	JButton[] theButtons = new JButton[65];
 	
@@ -74,27 +74,20 @@ public class Grid extends JFrame implements ActionListener {
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
 		// TODO Auto-generated method stub
-		
-		System.out.println(arg0.getActionCommand());
-		System.out.println(Player);
+		System.out.print(arg0.getActionCommand());
 		
 		int[] nums = new int[65];
 		for (int i = 1; i < 65; i++) {
 			
-			if((arg0.getActionCommand().equals(i + ""))&&(Player = true)){
-				theButtons[Integer.parseInt(arg0.getActionCommand())].setBackground(Color.WHITE);
-				Player = false;
-				break;
-			
+		if(arg0.getActionCommand().equals(i + "")&&(Player = false)){
+			theButtons[Integer.parseInt(arg0.getActionCommand())].setBackground(Color.BLACK);
+			Player = true;
+			break;
+		}else{
+			theButtons[Integer.parseInt(arg0.getActionCommand())].setBackground(Color.WHITE);
+			Player = false;
+			break;
 			}
-			
-			if((arg0.getActionCommand().equals(i + ""))&&(Player = false)){
-				theButtons[Integer.parseInt(arg0.getActionCommand())].setBackground(Color.BLACK);
-				Player = true;
-				break;
-				
-			}
-			
 		}
 	}
 }

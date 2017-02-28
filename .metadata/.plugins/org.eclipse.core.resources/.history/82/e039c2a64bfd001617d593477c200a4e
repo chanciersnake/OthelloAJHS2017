@@ -74,27 +74,22 @@ public class Grid extends JFrame implements ActionListener {
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
 		// TODO Auto-generated method stub
-		
 		System.out.println(arg0.getActionCommand());
 		System.out.println(Player);
-		
 		int[] nums = new int[65];
 		for (int i = 1; i < 65; i++) {
 			
-			if((arg0.getActionCommand().equals(i + ""))&&(Player = true)){
-				theButtons[Integer.parseInt(arg0.getActionCommand())].setBackground(Color.WHITE);
+		if(arg0.getActionCommand().equals(i + "")&&(Player = false)){
+			theButtons[Integer.parseInt(arg0.getActionCommand())].setBackground(Color.RED);
+			Player = true;
+			break;
+		}else{
+			if(arg0.getActionCommand().equals(i + "")&&(Player = true)){
+				theButtons[Integer.parseInt(arg0.getActionCommand())].setBackground(Color.BLACK);
 				Player = false;
 				break;
-			
+				}
 			}
-			
-			if((arg0.getActionCommand().equals(i + ""))&&(Player = false)){
-				theButtons[Integer.parseInt(arg0.getActionCommand())].setBackground(Color.BLACK);
-				Player = true;
-				break;
-				
-			}
-			
 		}
 	}
 }
