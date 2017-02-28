@@ -78,20 +78,21 @@ public class Grid extends JFrame implements ActionListener {
 		System.out.println(arg0.getActionCommand());
 		System.out.println(Player);
 		
-		int[] nums = new int[65];
+		
 		for (int i = 1; i < 65; i++) {
 			
-			if((arg0.getActionCommand().equals(i + ""))&&(Player = true)){
+			if((arg0.getActionCommand().equals(i + ""))&&(Player == true)){
 				theButtons[Integer.parseInt(arg0.getActionCommand())].setBackground(Color.WHITE);
 				Player = false;
 				break;
 			
 			}
 			
-			if((arg0.getActionCommand().equals(i + ""))&&(Player = false)){
+			if((arg0.getActionCommand().equals(i + ""))&&(Player == false)){
 				theButtons[Integer.parseInt(arg0.getActionCommand())].setBackground(Color.BLACK);
 				Player = true;
 				break;
+				
 				
 			}
 			
