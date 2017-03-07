@@ -28,7 +28,8 @@ public class Grid extends JFrame implements ActionListener {
 	public int GetActionCommand;
 	public int Down;
 	public int LeftRight;
-	
+	public boolean InArow = false;
+	public int previousGetAction;
 	
 	
 	JButton[] theButtons = new JButton[65];
@@ -148,6 +149,11 @@ public class Grid extends JFrame implements ActionListener {
 
 	
 	
+	
+	
+	
+	
+	
 	public void refreshtheJLabel(){
 		VisibleC.remove(label);
 		label.removeAll();
@@ -155,14 +161,87 @@ public class Grid extends JFrame implements ActionListener {
 		label.updateUI();
 	}
 	
+	//two[y][x];
+	
+	
+	
+	public boolean isGetActionCommandEqual(){
+		if(previousGetAction == GetActionCommand){
+			return true;
+		}
+		return false;
+	}
+	
+	
+	
 	public void CheckVertical(){
 		if (Player == true){ 		//white
-			HowManyChipsBellow();
-			for(;Down > 0;Down--){
-				//twoDim
+			//HowManyChipsBellow();
+			for(int o = 7; o >= 0; o --){
+					isGetActionCommandEqual();
+				if(twoDim[o][GetActionCommand%8].toString().equals("cWHITE")){
+					
+					if(twoDim[o+1][GetActionCommand%8].toString().equals("cBLACK")){
+						
+						if(twoDim[o+2][GetActionCommand%8].toString().equals("cWHITE")){
+							twoDim[o+1][GetActionCommand%8] = Chips.cWHITE;
+							theButtons[(o+1)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
+							
+							}else{
+								if(twoDim[o+2][GetActionCommand%8].toString().equals("cBLACK")){
+									if(twoDim[o+3][GetActionCommand%8].toString().equals("cWHITE")){
+										twoDim[o+1][GetActionCommand%8] = Chips.cWHITE;
+										twoDim[o+2][GetActionCommand%8] = Chips.cWHITE;
+										theButtons[(o+1)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
+										theButtons[(o+2)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
+										
+										}else{
+											if(twoDim[o+3][GetActionCommand%8].toString().equals("cBLACK")){
+												if(twoDim[o+4][GetActionCommand%8].toString().equals("cWHITE")){
+												twoDim[o+1][GetActionCommand%8] = Chips.cWHITE;
+												twoDim[o+2][GetActionCommand%8] = Chips.cWHITE;
+												twoDim[o+3][GetActionCommand%8] = Chips.cWHITE;
+												theButtons[(o+1)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
+												theButtons[(o+2)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
+												theButtons[(o+3)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
+										}else{
+											if(twoDim[o+4][GetActionCommand%8].toString().equals("cBLACK")){
+												if(twoDim[o+5][GetActionCommand%8].toString().equals("cWHITE")){
+												twoDim[o+1][GetActionCommand%8] = Chips.cWHITE;
+												twoDim[o+2][GetActionCommand%8] = Chips.cWHITE;
+												twoDim[o+3][GetActionCommand%8] = Chips.cWHITE;
+												twoDim[o+4][GetActionCommand%8] = Chips.cWHITE;
+												theButtons[(o+1)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
+												theButtons[(o+2)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
+												theButtons[(o+3)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
+												theButtons[(o+4)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
+										}else{
+											if(twoDim[o+5][GetActionCommand%8].toString().equals("cBLACK")){
+												if(twoDim[o+6][GetActionCommand%8].toString().equals("cWHITE")){
+												twoDim[o+1][GetActionCommand%8] = Chips.cWHITE;
+												twoDim[o+2][GetActionCommand%8] = Chips.cWHITE;
+												twoDim[o+3][GetActionCommand%8] = Chips.cWHITE;
+												twoDim[o+4][GetActionCommand%8] = Chips.cWHITE;
+												twoDim[o+5][GetActionCommand%8] = Chips.cWHITE;
+												theButtons[(o+1)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
+												theButtons[(o+2)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
+												theButtons[(o+3)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
+												theButtons[(o+4)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
+												theButtons[(o+5)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
+										}
+								}
+							}
+						}
+					}		
+				}
 			}
 		}
 	}
+	}
+}
+}
+}
+}
 	
 	public void CheckHorizontal(){
 		
@@ -173,7 +252,7 @@ public class Grid extends JFrame implements ActionListener {
 	}
 	
 	public void HowManyChipsBellow(){
-		Down = 8 - GetActionCommand;
+		Down = 7 - GetActionCommand;
 	}
 	
 	
@@ -186,9 +265,14 @@ public class Grid extends JFrame implements ActionListener {
 		
 		
 		GetActionCommand = Integer.parseInt(arg0.getActionCommand());
+		previousGetAction = GetActionCommand;
+		
+		
+		
 		
 		if(Player == true){
 			BorW = "white";
+			previousGetAction = GetActionCommand;
 		}else{
 			BorW = "black";
 		}
@@ -206,7 +290,7 @@ public class Grid extends JFrame implements ActionListener {
 				theButtons[Integer.parseInt(arg0.getActionCommand())].setBackground(Color.WHITE);
 				twoDim[Integer.parseInt(arg0.getActionCommand())/8][Integer.parseInt(arg0.getActionCommand())%8] = Chips.cWHITE;
 				
-				//CheckVertical();
+				CheckVertical();
 				//CheckHorizontal();
 				//CheckDiagnol();
 				
@@ -221,7 +305,7 @@ public class Grid extends JFrame implements ActionListener {
 				theButtons[Integer.parseInt(arg0.getActionCommand())].setBackground(Color.BLACK);
 				twoDim[Integer.parseInt(arg0.getActionCommand())/8][Integer.parseInt(arg0.getActionCommand())%8] = Chips.cBLACK;
 				
-				//CheckVertical();
+				CheckVertical();
 				//CheckHorizontal();
 				//CheckDiagnol();
 				
