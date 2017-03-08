@@ -3,7 +3,7 @@
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Grid.java&quot; tooltip=&quot;Othello/src/Grid.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Othello/src/Grid.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;EnumsAndGridTalkTEST.java&quot; tooltip=&quot;Othello/src/EnumsAndGridTalkTEST.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Othello/src/EnumsAndGridTalkTEST.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;Component.class&quot; tooltip=&quot;java.awt.Component&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=Othello/C:\/Program Files\/Java\/jdk1.8.0_121\/jre\/lib\/rt.jar&amp;lt;java.awt(Component.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;EventDispatchThread.class&quot; tooltip=&quot;java.awt.EventDispatchThread&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=Othello/C:\/Program Files\/Java\/jdk1.8.0_121\/jre\/lib\/rt.jar&amp;lt;java.awt(EventDispatchThread.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;EventQueue.class&quot; tooltip=&quot;java.awt.EventQueue&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=Othello/C:\/Program Files\/Java\/jdk1.8.0_121\/jre\/lib\/rt.jar&amp;lt;java.awt(EventQueue.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BeginingGameScreen.java&quot; tooltip=&quot;Othello/src/BeginingGameScreen.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Othello/src/BeginingGameScreen.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;GameTester.java&quot; tooltip=&quot;Othello/src/GameTester.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Othello/src/GameTester.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;OthelloBoard.java&quot; tooltip=&quot;Othello/src/OthelloBoard.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Othello/src/OthelloBoard.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;test.java&quot; tooltip=&quot;Test/src/test.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Test/src/test.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_oQgi4fxaEeaNMd1EO1--kA" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_oQgi4vxaEeaNMd1EO1--kA" label="%trimmedwindow.label.eclipseSDK" x="154" y="135" width="1024" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_oQgi4fxaEeaNMd1EO1--kA" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_oQgi4vxaEeaNMd1EO1--kA" label="%trimmedwindow.label.eclipseSDK" x="91" y="173" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -71,6 +71,7 @@
           <tags>persp.viewSC:org.eclipse.mylyn.tasks.ui.views.tasks</tags>
           <tags>persp.newWizSC:org.eclipse.mylyn.tasks.ui.wizards.new.repository.task</tags>
           <tags>persp.actionSet:org.eclipse.wb.core.ui.actionset</tags>
+          <tags>persp.actionSet:org.eclipse.acceleo.ide.ui.editors.template.actionSet</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_oQgi5fxaEeaNMd1EO1--kA" selectedElement="_oQgi7_xaEeaNMd1EO1--kA" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_oQgi5vxaEeaNMd1EO1--kA" containerData="1414" selectedElement="_oQgi5_xaEeaNMd1EO1--kA">
               <children xsi:type="basic:PartStack" xmi:id="_oQgi5_xaEeaNMd1EO1--kA" elementId="left" containerData="6000" selectedElement="_oQgi6PxaEeaNMd1EO1--kA">
@@ -173,7 +174,7 @@
           </menus>
         </children>
         <children xsi:type="basic:Part" xmi:id="_oQgkLPxaEeaNMd1EO1--kA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Grid.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Grid.java&quot; partName=&quot;Grid.java&quot; title=&quot;Grid.java&quot; tooltip=&quot;Othello/src/Grid.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Othello/src/Grid.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;3759&quot; selectionTopPixel=&quot;2376&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Grid.java&quot; partName=&quot;Grid.java&quot; title=&quot;Grid.java&quot; tooltip=&quot;Othello/src/Grid.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Othello/src/Grid.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;11849&quot; selectionTopPixel=&quot;2385&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -197,7 +198,7 @@
           </menus>
         </children>
         <children xsi:type="basic:Part" xmi:id="_oQgkMPxaEeaNMd1EO1--kA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="BeginingGameScreen.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BeginingGameScreen.java&quot; partName=&quot;BeginingGameScreen.java&quot; title=&quot;BeginingGameScreen.java&quot; tooltip=&quot;Othello/src/BeginingGameScreen.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Othello/src/BeginingGameScreen.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;3728&quot; selectionTopPixel=&quot;2830&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BeginingGameScreen.java&quot; partName=&quot;BeginingGameScreen.java&quot; title=&quot;BeginingGameScreen.java&quot; tooltip=&quot;Othello/src/BeginingGameScreen.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Othello/src/BeginingGameScreen.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1059&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -257,7 +258,7 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_oQgkVfxaEeaNMd1EO1--kA" elementId="org.eclipse.ui.views.ProblemView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/problems_view.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.views.markers.ProblemsView"/>
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.ide"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Warnings (22 items)&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;300&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Warnings (26 items)&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;300&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_oQgkVvxaEeaNMd1EO1--kA" elementId="org.eclipse.ui.views.ProblemView">
@@ -380,7 +381,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oQgkcvxaEeaNMd1EO1--kA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_08pWZwNBEeePAv_Iqy66lA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_oQh0jvxaEeaNMd1EO1--kA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_9Rr8ZwQKEeezCfgz_oFdvg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_oQh0jvxaEeaNMd1EO1--kA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oQgkf_xaEeaNMd1EO1--kA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -404,7 +405,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oQgkwvxaEeaNMd1EO1--kA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_08zHaQNBEeePAv_Iqy66lA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_oQh0BfxaEeaNMd1EO1--kA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_9R1GVAQKEeezCfgz_oFdvg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_oQh0BfxaEeaNMd1EO1--kA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oQgkzfxaEeaNMd1EO1--kA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -481,8 +482,8 @@
     <bindings xmi:id="_oQglAPxaEeaNMd1EO1--kA" keySequence="CTRL+INSERT" command="_oQhyrfxaEeaNMd1EO1--kA"/>
     <bindings xmi:id="_oQglAfxaEeaNMd1EO1--kA" keySequence="CTRL+F10" command="_oQhzLPxaEeaNMd1EO1--kA"/>
     <bindings xmi:id="_oQglAvxaEeaNMd1EO1--kA" keySequence="SHIFT+DEL" command="_oQh0dPxaEeaNMd1EO1--kA"/>
-    <bindings xmi:id="_CNKQwP6NEeaVAMUsHfOAvA" keySequence="ALT+SHIFT+F2" command="_CL9-Bv6NEeaVAMUsHfOAvA"/>
-    <bindings xmi:id="_CNKQwf6NEeaVAMUsHfOAvA" keySequence="ALT+SHIFT+F1" command="_CL9-Cf6NEeaVAMUsHfOAvA"/>
+    <bindings xmi:id="_8tV5MAQKEeezCfgz_oFdvg" keySequence="ALT+SHIFT+F1" command="_CL9-Cf6NEeaVAMUsHfOAvA"/>
+    <bindings xmi:id="_8tV5MQQKEeezCfgz_oFdvg" keySequence="ALT+SHIFT+F2" command="_CL9-Bv6NEeaVAMUsHfOAvA"/>
   </bindingTables>
   <bindingTables xmi:id="_oQglA_xaEeaNMd1EO1--kA" elementId="org.eclipse.ui.contexts.window" bindingContext="_oQhKvfxaEeaNMd1EO1--kA">
     <bindings xmi:id="_oQglBPxaEeaNMd1EO1--kA" keySequence="CTRL+B" command="_oQhzAfxaEeaNMd1EO1--kA"/>
@@ -628,15 +629,15 @@
     <bindings xmi:id="_oQhJ8_xaEeaNMd1EO1--kA" keySequence="ALT+SHIFT+Q T" command="_oQhzjvxaEeaNMd1EO1--kA">
       <parameters xmi:id="_oQhJ9PxaEeaNMd1EO1--kA" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.jdt.ui.TypeHierarchy"/>
     </bindings>
-    <bindings xmi:id="_CMtk0P6NEeaVAMUsHfOAvA" keySequence="CTRL+SHIFT+A" command="_CL9-C_6NEeaVAMUsHfOAvA"/>
-    <bindings xmi:id="_CMtk1f6NEeaVAMUsHfOAvA" keySequence="ALT+CTRL+SHIFT+A" command="_CL9-DP6NEeaVAMUsHfOAvA"/>
-    <bindings xmi:id="_CM2uwv6NEeaVAMUsHfOAvA" keySequence="ALT+SHIFT+D E" command="_CL9-Kv6NEeaVAMUsHfOAvA"/>
-    <bindings xmi:id="_CM2uw_6NEeaVAMUsHfOAvA" keySequence="ALT+SHIFT+D O" command="_CL999v6NEeaVAMUsHfOAvA"/>
-    <bindings xmi:id="_CM2uxP6NEeaVAMUsHfOAvA" keySequence="ALT+SHIFT+D P" command="_CL9-Fv6NEeaVAMUsHfOAvA"/>
-    <bindings xmi:id="_CNKQwv6NEeaVAMUsHfOAvA" keySequence="ALT+CTRL+SHIFT+M" command="_CL9-Hv6NEeaVAMUsHfOAvA"/>
-    <bindings xmi:id="_CNKQxf6NEeaVAMUsHfOAvA" keySequence="ALT+SHIFT+X O" command="_CL9-AP6NEeaVAMUsHfOAvA"/>
-    <bindings xmi:id="_CNKQxv6NEeaVAMUsHfOAvA" keySequence="ALT+SHIFT+X P" command="_CL9-I_6NEeaVAMUsHfOAvA"/>
-    <bindings xmi:id="_CNKQx_6NEeaVAMUsHfOAvA" keySequence="ALT+SHIFT+X E" command="_CL9-Bf6NEeaVAMUsHfOAvA"/>
+    <bindings xmi:id="_UCqQggNgEeeI5ruK5n1ldw" keySequence="CTRL+SHIFT+A" command="_CL9-C_6NEeaVAMUsHfOAvA"/>
+    <bindings xmi:id="_UCqQgwNgEeeI5ruK5n1ldw" keySequence="ALT+CTRL+SHIFT+A" command="_CL9-DP6NEeaVAMUsHfOAvA"/>
+    <bindings xmi:id="_UCqQhANgEeeI5ruK5n1ldw" keySequence="ALT+SHIFT+D E" command="_CL9-Kv6NEeaVAMUsHfOAvA"/>
+    <bindings xmi:id="_UCqQhQNgEeeI5ruK5n1ldw" keySequence="ALT+SHIFT+D O" command="_CL999v6NEeaVAMUsHfOAvA"/>
+    <bindings xmi:id="_UCqQhgNgEeeI5ruK5n1ldw" keySequence="ALT+SHIFT+D P" command="_CL9-Fv6NEeaVAMUsHfOAvA"/>
+    <bindings xmi:id="_UDG8dwNgEeeI5ruK5n1ldw" keySequence="ALT+CTRL+SHIFT+M" command="_CL9-Hv6NEeaVAMUsHfOAvA"/>
+    <bindings xmi:id="_UDG8egNgEeeI5ruK5n1ldw" keySequence="ALT+SHIFT+X E" command="_CL9-Bf6NEeaVAMUsHfOAvA"/>
+    <bindings xmi:id="_UDG8ewNgEeeI5ruK5n1ldw" keySequence="ALT+SHIFT+X P" command="_CL9-I_6NEeaVAMUsHfOAvA"/>
+    <bindings xmi:id="_UDG8fANgEeeI5ruK5n1ldw" keySequence="ALT+SHIFT+X O" command="_CL9-AP6NEeaVAMUsHfOAvA"/>
   </bindingTables>
   <bindingTables xmi:id="_oQhJ9fxaEeaNMd1EO1--kA" elementId="org.eclipse.jdt.ui.javaEditorScope" bindingContext="_oQhKwvxaEeaNMd1EO1--kA">
     <bindings xmi:id="_oQhJ9vxaEeaNMd1EO1--kA" keySequence="CTRL+SHIFT+C" command="_oQhyzfxaEeaNMd1EO1--kA"/>
@@ -733,7 +734,7 @@
     <bindings xmi:id="_oQhKUvxaEeaNMd1EO1--kA" keySequence="CTRL+DEL" command="_oQh0YPxaEeaNMd1EO1--kA"/>
     <bindings xmi:id="_oQhKVPxaEeaNMd1EO1--kA" keySequence="ALT+CTRL+ARROW_DOWN" command="_oQh1LPxaEeaNMd1EO1--kA"/>
     <bindings xmi:id="_CNAfwP6NEeaVAMUsHfOAvA" keySequence="F12" command="_CL999f6NEeaVAMUsHfOAvA"/>
-    <bindings xmi:id="_CNKQw_6NEeaVAMUsHfOAvA" keySequence="SHIFT+F12" command="_CL9-F_6NEeaVAMUsHfOAvA"/>
+    <bindings xmi:id="_8tV5MgQKEeezCfgz_oFdvg" keySequence="SHIFT+F12" command="_CL9-F_6NEeaVAMUsHfOAvA"/>
   </bindingTables>
   <bindingTables xmi:id="_oQhKVfxaEeaNMd1EO1--kA" elementId="org.eclipse.jdt.ui.breadcrumbEditorScope" bindingContext="_oQhK5fxaEeaNMd1EO1--kA">
     <bindings xmi:id="_oQhKVvxaEeaNMd1EO1--kA" keySequence="ALT+SHIFT+B" command="_oQh1fvxaEeaNMd1EO1--kA"/>
@@ -858,17 +859,43 @@
     <bindings xmi:id="_CM2uwP6NEeaVAMUsHfOAvA" keySequence="ALT+CTRL+A" command="_CL9-Jf6NEeaVAMUsHfOAvA"/>
   </bindingTables>
   <bindingTables xmi:id="_CMtk0_6NEeaVAMUsHfOAvA" elementId="org.eclipse.wb.core.xml.editorScope" bindingContext="_CL9-Mf6NEeaVAMUsHfOAvA">
-    <bindings xmi:id="_CMtk1P6NEeaVAMUsHfOAvA" keySequence="CTRL+SHIFT+A" command="_CL9-Jf6NEeaVAMUsHfOAvA"/>
-    <bindings xmi:id="_CM2uwf6NEeaVAMUsHfOAvA" keySequence="ALT+CTRL+A" command="_CL9-Jf6NEeaVAMUsHfOAvA"/>
-    <bindings xmi:id="_CNAfwf6NEeaVAMUsHfOAvA" keySequence="F12" command="_CL9-LP6NEeaVAMUsHfOAvA"/>
+    <bindings xmi:id="_8tMIMQQKEeezCfgz_oFdvg" keySequence="CTRL+SHIFT+A" command="_CL9-Jf6NEeaVAMUsHfOAvA"/>
+    <bindings xmi:id="_8tMIMgQKEeezCfgz_oFdvg" keySequence="ALT+CTRL+A" command="_CL9-Jf6NEeaVAMUsHfOAvA"/>
+    <bindings xmi:id="_8tMIMwQKEeezCfgz_oFdvg" keySequence="F12" command="_CL9-LP6NEeaVAMUsHfOAvA"/>
   </bindingTables>
   <bindingTables xmi:id="_CM2uxf6NEeaVAMUsHfOAvA" elementId="org.eclipse.pde.ui.pdeEditorContext" bindingContext="_CL9-MP6NEeaVAMUsHfOAvA">
-    <bindings xmi:id="_CM2uxv6NEeaVAMUsHfOAvA" keySequence="CTRL+SHIFT+F" command="_CL99__6NEeaVAMUsHfOAvA"/>
-    <bindings xmi:id="_CNKQxP6NEeaVAMUsHfOAvA" keySequence="CTRL+O" command="_CL9-BP6NEeaVAMUsHfOAvA"/>
+    <bindings xmi:id="_UC0BggNgEeeI5ruK5n1ldw" keySequence="CTRL+SHIFT+F" command="_CL99__6NEeaVAMUsHfOAvA"/>
+    <bindings xmi:id="_UDG8dQNgEeeI5ruK5n1ldw" keySequence="CTRL+O" command="_CL9-BP6NEeaVAMUsHfOAvA"/>
   </bindingTables>
   <bindingTables xmi:id="_CpV2cf6NEeaVAMUsHfOAvA" bindingContext="_CpV2cP6NEeaVAMUsHfOAvA"/>
   <bindingTables xmi:id="_CpV2c_6NEeaVAMUsHfOAvA" bindingContext="_CpV2cv6NEeaVAMUsHfOAvA"/>
   <bindingTables xmi:id="_CpV2df6NEeaVAMUsHfOAvA" bindingContext="_CpV2dP6NEeaVAMUsHfOAvA"/>
+  <bindingTables xmi:id="_kF8jYANfEeeMQdkmKniP5g" elementId="org.eclipse.gmf.runtime.diagram.ui.diagramContext" bindingContext="_kFWtgwNfEeeMQdkmKniP5g"/>
+  <bindingTables xmi:id="_kF8jYgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.cEditorScope" bindingContext="_kFWtiQNfEeeMQdkmKniP5g"/>
+  <bindingTables xmi:id="_kF8jZANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.macroExpansionHoverScope" bindingContext="_kFWthgNfEeeMQdkmKniP5g"/>
+  <bindingTables xmi:id="_kGGUYgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.dsf.debug.ui.disassembly.context" bindingContext="_kFWtgANfEeeMQdkmKniP5g"/>
+  <bindingTables xmi:id="_kGGUZQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.cViewScope" bindingContext="_kFWtgQNfEeeMQdkmKniP5g"/>
+  <bindingTables xmi:id="_kGGUcQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.debugging" bindingContext="_kFWtggNfEeeMQdkmKniP5g"/>
+  <bindingTables xmi:id="_kGGUeANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.make.ui.makefileEditorScope" bindingContext="_kFWtiANfEeeMQdkmKniP5g"/>
+  <bindingTables xmi:id="_kgcuEQNfEeeMQdkmKniP5g" bindingContext="_kgcuEANfEeeMQdkmKniP5g"/>
+  <bindingTables xmi:id="_kgcuEwNfEeeMQdkmKniP5g" bindingContext="_kgcuEgNfEeeMQdkmKniP5g"/>
+  <bindingTables xmi:id="_kgcuFQNfEeeMQdkmKniP5g" bindingContext="_kgcuFANfEeeMQdkmKniP5g"/>
+  <bindingTables xmi:id="_kgcuFwNfEeeMQdkmKniP5g" bindingContext="_kgcuFgNfEeeMQdkmKniP5g"/>
+  <bindingTables xmi:id="_kgcuGQNfEeeMQdkmKniP5g" bindingContext="_kgcuGANfEeeMQdkmKniP5g"/>
+  <bindingTables xmi:id="_kgcuGwNfEeeMQdkmKniP5g" bindingContext="_kgcuGgNfEeeMQdkmKniP5g"/>
+  <bindingTables xmi:id="_kgcuHQNfEeeMQdkmKniP5g" bindingContext="_kgcuHANfEeeMQdkmKniP5g"/>
+  <bindingTables xmi:id="_kgcuHwNfEeeMQdkmKniP5g" bindingContext="_kgcuHgNfEeeMQdkmKniP5g"/>
+  <bindingTables xmi:id="_kgcuIQNfEeeMQdkmKniP5g" bindingContext="_kgcuIANfEeeMQdkmKniP5g"/>
+  <bindingTables xmi:id="_kgcuIwNfEeeMQdkmKniP5g" bindingContext="_kgcuIgNfEeeMQdkmKniP5g"/>
+  <bindingTables xmi:id="_kgcuJQNfEeeMQdkmKniP5g" bindingContext="_kgcuJANfEeeMQdkmKniP5g"/>
+  <bindingTables xmi:id="_kgcuJwNfEeeMQdkmKniP5g" bindingContext="_kgcuJgNfEeeMQdkmKniP5g"/>
+  <bindingTables xmi:id="_kgcuKQNfEeeMQdkmKniP5g" bindingContext="_kgcuKANfEeeMQdkmKniP5g"/>
+  <bindingTables xmi:id="_kgcuKwNfEeeMQdkmKniP5g" bindingContext="_kgcuKgNfEeeMQdkmKniP5g"/>
+  <bindingTables xmi:id="_kgcuLQNfEeeMQdkmKniP5g" bindingContext="_kgcuLANfEeeMQdkmKniP5g"/>
+  <bindingTables xmi:id="_UCqQgANgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ide.ui.editors.template.editor" bindingContext="_UB6p4gNgEeeI5ruK5n1ldw"/>
+  <bindingTables xmi:id="_UCqQiANgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.diagram.ui.diagramContext" bindingContext="_UB6p4QNgEeeI5ruK5n1ldw"/>
+  <bindingTables xmi:id="_UC0BhgNgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ui.interpreter.interpreterview" bindingContext="_UB6p4ANgEeeI5ruK5n1ldw"/>
+  <bindingTables xmi:id="_UlM84QNgEeeI5ruK5n1ldw" bindingContext="_UlM84ANgEeeI5ruK5n1ldw"/>
   <rootContext xmi:id="_oQhKvPxaEeaNMd1EO1--kA" elementId="org.eclipse.ui.contexts.dialogAndWindow" contributorURI="platform:/plugin/org.eclipse.platform" name="In Dialogs and Windows" description="Either a dialog or a window is open">
     <children xmi:id="_oQhKvfxaEeaNMd1EO1--kA" elementId="org.eclipse.ui.contexts.window" contributorURI="platform:/plugin/org.eclipse.platform" name="In Windows" description="A window is open">
       <children xmi:id="_oQhKvvxaEeaNMd1EO1--kA" elementId="org.eclipse.e4.ui.contexts.views" contributorURI="platform:/plugin/org.eclipse.platform" name="%bindingcontext.name.bindingView"/>
@@ -900,6 +927,9 @@
         <children xmi:id="_oQhK1fxaEeaNMd1EO1--kA" elementId="org.eclipse.jdt.ui.propertiesEditorScope" name="Editing Properties Files" description="Editing Properties Files Context"/>
         <children xmi:id="_CL9-L_6NEeaVAMUsHfOAvA" elementId="org.eclipse.wb.core.java.editorScope" name="WindowBuilder Java scope"/>
         <children xmi:id="_CL9-MP6NEeaVAMUsHfOAvA" elementId="org.eclipse.pde.ui.pdeEditorContext" name="PDE editor" description="The context used by PDE editors"/>
+        <children xmi:id="_kFWtiANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.make.ui.makefileEditorScope" name="Makefile Editor" description="Editor for makefiles"/>
+        <children xmi:id="_kFWtiQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.cEditorScope" name="C/C++ Editor" description="Editor for C/C++ Source Files"/>
+        <children xmi:id="_UB6p4gNgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ide.ui.editors.template.editor" name="Acceleo Editor" description="Acceleo editing template context"/>
       </children>
       <children xmi:id="_oQhK1vxaEeaNMd1EO1--kA" elementId="org.eclipse.debug.ui.console" name="In I/O Console" description="In I/O console"/>
       <children xmi:id="_oQhK1_xaEeaNMd1EO1--kA" elementId="org.eclipse.compare.compareEditorScope" name="Comparing in an Editor" description="Comparing in an Editor"/>
@@ -908,13 +938,27 @@
       <children xmi:id="_oQhK2vxaEeaNMd1EO1--kA" elementId="org.eclipse.debug.ui.debugging" name="Debugging" description="Debugging programs">
         <children xmi:id="_oQhK2_xaEeaNMd1EO1--kA" elementId="org.eclipse.debug.ui.memory.abstractasynctablerendering" name="In Table Memory Rendering" description="In Table Memory Rendering"/>
         <children xmi:id="_oQhK3PxaEeaNMd1EO1--kA" elementId="org.eclipse.jdt.debug.ui.debugging" name="Debugging Java" description="Debugging Java programs"/>
+        <children xmi:id="_kFWtgANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.dsf.debug.ui.disassembly.context" name="In Disassembly" description="When debugging in assembly mode"/>
+        <children xmi:id="_kFWtggNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.debugging" name="Debugging C/C++" description="Debugging C/C++ Programs"/>
+        <children xmi:id="_UB6p5QNgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ide.ui.debug" name="Debugging Acceleo" description="Debugging Acceleo"/>
       </children>
       <children xmi:id="_oQhK3fxaEeaNMd1EO1--kA" elementId="org.eclipse.egit.ui.ReflogView" name="In Git Reflog View"/>
       <children xmi:id="_oQhK3vxaEeaNMd1EO1--kA" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" name="In Tasks View"/>
       <children xmi:id="_oQhK3_xaEeaNMd1EO1--kA" elementId="org.eclipse.buildship.ui.contexts.taskview" name="In Gradle Tasks View" description="This context is activated when the Gradle Tasks view is in focus"/>
       <children xmi:id="_oQhK4PxaEeaNMd1EO1--kA" elementId="org.eclipse.egit.ui.RepositoriesView" name="In Git Repositories View"/>
+      <children xmi:id="_kFWtgQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.cViewScope" name="In C/C++ Views" description="In C/C++ Views"/>
+      <children xmi:id="_kFWtgwNfEeeMQdkmKniP5g" elementId="org.eclipse.gmf.runtime.diagram.ui.diagramContext" name="Diagram Editing" description="GMF Diagram Editing">
+        <children xmi:id="_kFWthANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.diagram.composite.ui.diagramContext" name="In Papyrus UML CompositeStructure Diagram Editor" description="Papyrus UML CompositeStructure Diagram Editing"/>
+        <children xmi:id="_kFWthQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.diagram.activity.ui.diagramContext" name="In Papyrus UML Activity Diagram Editor" description="UML Papyrus Activity Diagram Editing"/>
+        <children xmi:id="_kFWthwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.diagram.clazz.ui.diagramContext" name="In Papyrus UML Class Diagram Editor" description="Papyrus UML Class Diagram Editing"/>
+        <children xmi:id="_UB6p4QNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.diagram.ui.diagramContext" name="In Sirius Diagram Editor" description="Sirius Diagram Editing"/>
+      </children>
+      <children xmi:id="_UB6p4wNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.tree.ui.EditorID.treeContext" name="DTree Editing" description="Sirius DTree Editing"/>
+      <children xmi:id="_UB6p5ANgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.table.ui.EditorID.tableContext" name="DTable Editing" description="Sirius DTable Editing"/>
     </children>
     <children xmi:id="_oQhK4fxaEeaNMd1EO1--kA" elementId="org.eclipse.ui.contexts.dialog" contributorURI="platform:/plugin/org.eclipse.platform" name="In Dialogs" description="A dialog is open"/>
+    <children xmi:id="_kFWthgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.macroExpansionHoverScope" name="In Macro Expansion Hover" description="In Macro Expansion Hover"/>
+    <children xmi:id="_UB6p4ANgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ui.interpreter.interpreterview" name="Acceleo Interpreter View"/>
   </rootContext>
   <rootContext xmi:id="_oQhK4vxaEeaNMd1EO1--kA" elementId="org.eclipse.wst.xsd.ui.editor.designView" name="XSD Editor Design View" description="XSD Editor Design View"/>
   <rootContext xmi:id="_oQhK4_xaEeaNMd1EO1--kA" elementId="org.eclipse.ui.contexts.actionSet" name="Action Set" description="Parent context for action sets"/>
@@ -958,6 +1002,22 @@
   <rootContext xmi:id="_CpV2cP6NEeaVAMUsHfOAvA" elementId="org.eclipse.team.cvs.ui.CVSActionSet" name="Auto::org.eclipse.team.cvs.ui.CVSActionSet"/>
   <rootContext xmi:id="_CpV2cv6NEeaVAMUsHfOAvA" elementId="org.eclipse.pde.ui.SearchActionSet" name="Auto::org.eclipse.pde.ui.SearchActionSet"/>
   <rootContext xmi:id="_CpV2dP6NEeaVAMUsHfOAvA" elementId="org.eclipse.wb.core.ui.actionset" name="Auto::org.eclipse.wb.core.ui.actionset"/>
+  <rootContext xmi:id="_kgcuEANfEeeMQdkmKniP5g" elementId="org.eclipse.gmf.runtime.diagram.ui.DiagramActionSet" name="Auto::org.eclipse.gmf.runtime.diagram.ui.DiagramActionSet"/>
+  <rootContext xmi:id="_kgcuEgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.debugActionSet" name="Auto::org.eclipse.cdt.debug.ui.debugActionSet"/>
+  <rootContext xmi:id="_kgcuFANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.reverseDebuggingActionSet" name="Auto::org.eclipse.cdt.debug.ui.reverseDebuggingActionSet"/>
+  <rootContext xmi:id="_kgcuFgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.tracepointActionSet" name="Auto::org.eclipse.cdt.debug.ui.tracepointActionSet"/>
+  <rootContext xmi:id="_kgcuGANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.debugViewLayoutActionSet" name="Auto::org.eclipse.cdt.debug.ui.debugViewLayoutActionSet"/>
+  <rootContext xmi:id="_kgcuGgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.dsf.debug.ui.updateModes" name="Auto::org.eclipse.cdt.dsf.debug.ui.updateModes"/>
+  <rootContext xmi:id="_kgcuHANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.make.ui.updateActionSet" name="Auto::org.eclipse.cdt.make.ui.updateActionSet"/>
+  <rootContext xmi:id="_kgcuHgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.make.ui.makeTargetActionSet" name="Auto::org.eclipse.cdt.make.ui.makeTargetActionSet"/>
+  <rootContext xmi:id="_kgcuIANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.CodingActionSet" name="Auto::org.eclipse.cdt.ui.CodingActionSet"/>
+  <rootContext xmi:id="_kgcuIgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.SearchActionSet" name="Auto::org.eclipse.cdt.ui.SearchActionSet"/>
+  <rootContext xmi:id="_kgcuJANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.NavigationActionSet" name="Auto::org.eclipse.cdt.ui.NavigationActionSet"/>
+  <rootContext xmi:id="_kgcuJgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.OpenActionSet" name="Auto::org.eclipse.cdt.ui.OpenActionSet"/>
+  <rootContext xmi:id="_kgcuKANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.buildConfigActionSet" name="Auto::org.eclipse.cdt.ui.buildConfigActionSet"/>
+  <rootContext xmi:id="_kgcuKgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.CElementCreationActionSet" name="Auto::org.eclipse.cdt.ui.CElementCreationActionSet"/>
+  <rootContext xmi:id="_kgcuLANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.text.c.actionSet.presentation" name="Auto::org.eclipse.cdt.ui.text.c.actionSet.presentation"/>
+  <rootContext xmi:id="_UlM84ANgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ide.ui.editors.template.actionSet" name="Auto::org.eclipse.acceleo.ide.ui.editors.template.actionSet"/>
   <descriptors xmi:id="_oQhLCfxaEeaNMd1EO1--kA" elementId="org.eclipse.e4.ui.compatibility.editor" allowMultiple="true" category="org.eclipse.e4.primaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor">
     <tags>Editor</tags>
   </descriptors>
@@ -1333,11 +1393,11 @@
     <tags>View</tags>
     <tags>categoryTag:XML</tags>
   </descriptors>
-  <descriptors xmi:id="_CPsAUP6NEeaVAMUsHfOAvA" elementId="org.eclipse.team.ccvs.ui.RepositoriesView" label="CVS Repositories" iconURI="platform:/plugin/org.eclipse.team.cvs.ui/icons/full/eview16/repo_rep.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+  <descriptors xmi:id="_CPsAUP6NEeaVAMUsHfOAvA" elementId="org.eclipse.team.ccvs.ui.RepositoriesView" label="CVS Repositories" iconURI="platform:/plugin/org.eclipse.team.cvs.ui/icons/full/eview16/repo_rep.gif" tooltip="" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
     <tags>View</tags>
     <tags>categoryTag:CVS</tags>
   </descriptors>
-  <descriptors xmi:id="_CPsAUf6NEeaVAMUsHfOAvA" elementId="org.eclipse.team.ccvs.ui.EditorsView" label="CVS Editors" iconURI="platform:/plugin/org.eclipse.team.cvs.ui/icons/full/eview16/rep_editors_view.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+  <descriptors xmi:id="_CPsAUf6NEeaVAMUsHfOAvA" elementId="org.eclipse.team.ccvs.ui.EditorsView" label="CVS Editors" iconURI="platform:/plugin/org.eclipse.team.cvs.ui/icons/full/eview16/rep_editors_view.gif" tooltip="" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
     <tags>View</tags>
     <tags>categoryTag:CVS</tags>
   </descriptors>
@@ -1365,13 +1425,109 @@
     <tags>View</tags>
     <tags>categoryTag:Plug-in Development</tags>
   </descriptors>
-  <descriptors xmi:id="_CP1KRv6NEeaVAMUsHfOAvA" elementId="org.eclipse.wb.core.StructureView" label="Structure" iconURI="platform:/plugin/org.eclipse.wb.core/icons/structure/properties_view.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+  <descriptors xmi:id="_CP1KRv6NEeaVAMUsHfOAvA" elementId="org.eclipse.wb.core.StructureView" label="Structure" iconURI="platform:/plugin/org.eclipse.wb.core/icons/structure/properties_view.gif" tooltip="" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
     <tags>View</tags>
     <tags>categoryTag:WindowBuilder</tags>
   </descriptors>
-  <descriptors xmi:id="_CP-7QP6NEeaVAMUsHfOAvA" elementId="org.eclipse.wb.core.PaletteView" label="Palette" iconURI="platform:/plugin/org.eclipse.wb.core/icons/structure/palette.png" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+  <descriptors xmi:id="_CP-7QP6NEeaVAMUsHfOAvA" elementId="org.eclipse.wb.core.PaletteView" label="Palette" iconURI="platform:/plugin/org.eclipse.wb.core/icons/structure/palette.png" tooltip="" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
     <tags>View</tags>
     <tags>categoryTag:WindowBuilder</tags>
+  </descriptors>
+  <descriptors xmi:id="_kIoD8ANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.core.pluginexplorer.PluginsContentView" label="Plugin Content Explorer" iconURI="platform:/plugin/org.eclipse.papyrus.infra.core.pluginexplorer/icons/plugin_obj.gif" tooltip="" category="Papyrus" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Papyrus</tags>
+  </descriptors>
+  <descriptors xmi:id="_kIoD8QNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.viewpoints.policy.ViewpointExplorer" label="Viewpoint Explorer" iconURI="platform:/plugin/org.eclipse.papyrus.infra.viewpoints.configuration.edit/icons/full/obj16/PapyrusViewpoint.png" tooltip="" category="Papyrus" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Papyrus</tags>
+  </descriptors>
+  <descriptors xmi:id="_kIoD8gNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.ui.toolbox.notification.view.PapyrusNotificationView" label="Papyrus Notification" iconURI="platform:/plugin/org.eclipse.papyrus.infra.widgets.toolbox/icons/sample.gif" tooltip="" category="Papyrus" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Papyrus</tags>
+  </descriptors>
+  <descriptors xmi:id="_kIoD8wNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.views.modelexplorer.modelexplorer" label="Model Explorer" iconURI="platform:/plugin/org.eclipse.papyrus.views.modelexplorer/icons/ModelExplorer.gif" tooltip="" category="Papyrus" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Papyrus</tags>
+  </descriptors>
+  <descriptors xmi:id="_kIx08ANfEeeMQdkmKniP5g" elementId="com.abstratt.imageviewer.GraphicalView" label="Image Viewer" iconURI="platform:/plugin/com.abstratt.imageviewer/icons/sample.gif" tooltip="" category="EclipseGraphviz" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:EclipseGraphviz</tags>
+  </descriptors>
+  <descriptors xmi:id="_kIx08QNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.codan.internal.ui.views.ProblemDetails" label="Problem Details" iconURI="platform:/plugin/org.eclipse.cdt.codan.ui/icons/edit_bug.gif" tooltip="" category="C/C++" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:C/C++</tags>
+  </descriptors>
+  <descriptors xmi:id="_kIx08gNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.executablesView" label="Executables" iconURI="platform:/plugin/org.eclipse.cdt.debug.ui/icons/obj16/exec_view_obj.gif" tooltip="" category="Debug" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Debug</tags>
+  </descriptors>
+  <descriptors xmi:id="_kIx08wNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.SignalsView" label="Signals" iconURI="platform:/plugin/org.eclipse.cdt.debug.ui/icons/view16/signals_view.gif" tooltip="" category="Debug" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Debug</tags>
+  </descriptors>
+  <descriptors xmi:id="_kIx09ANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.dsf.gdb.ui.tracecontrol.view" label="Trace Control" iconURI="platform:/plugin/org.eclipse.cdt.dsf.gdb.ui/icons/full/view16/tracecontrol_view.gif" tooltip="" category="Debug" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Debug</tags>
+  </descriptors>
+  <descriptors xmi:id="_kIx09QNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.dsf.gdb.ui.osresources.view" label="OS Resources" iconURI="platform:/plugin/org.eclipse.cdt.dsf.gdb.ui/icons/full/view16/osresources_view.gif" tooltip="" category="Debug" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Debug</tags>
+  </descriptors>
+  <descriptors xmi:id="_kIx09gNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="Disassembly" iconURI="platform:/plugin/org.eclipse.cdt.dsf.ui/icons/disassembly.gif" tooltip="" allowMultiple="true" category="Debug" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Debug</tags>
+  </descriptors>
+  <descriptors xmi:id="_kI6-4ANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.make.ui.views.MakeView" label="Make Target" iconURI="platform:/plugin/org.eclipse.cdt.make.ui/icons/view16/make_target.gif" tooltip="" category="Make" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Make</tags>
+  </descriptors>
+  <descriptors xmi:id="_kI6-4QNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.CView" label="C/C++ Projects" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/view16/cview.gif" tooltip="" category="C/C++" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:C/C++</tags>
+  </descriptors>
+  <descriptors xmi:id="_kI6-4gNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.IndexView" label="C/C++ Index" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/view16/types.gif" tooltip="" category="C/C++" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:C/C++</tags>
+  </descriptors>
+  <descriptors xmi:id="_kI6-4wNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.includeBrowser" label="Include Browser" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/view16/includeBrowser.gif" tooltip="" category="C/C++" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:C/C++</tags>
+  </descriptors>
+  <descriptors xmi:id="_kI6-5ANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.callHierarchy" label="Call Hierarchy" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/view16/call_hierarchy.gif" tooltip="" allowMultiple="true" category="C/C++" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:C/C++</tags>
+  </descriptors>
+  <descriptors xmi:id="_kI6-5QNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.typeHierarchy" label="Type Hierarchy" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/view16/class_hi.gif" tooltip="" category="C/C++" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:C/C++</tags>
+  </descriptors>
+  <descriptors xmi:id="_UGiD4ANgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ide.ui.views.result.AcceleoResultView" label="Result" iconURI="platform:/plugin/org.eclipse.acceleo.ide.ui/icons/AcceleoResultView.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Acceleo Model to Text</tags>
+  </descriptors>
+  <descriptors xmi:id="_UGiD4QNgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ide.ui.views.proposals.ProposalsBrowser" label="Generation Patterns" iconURI="platform:/plugin/org.eclipse.acceleo.ide.ui/icons/ProposalsBrowser.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Acceleo Model to Text</tags>
+  </descriptors>
+  <descriptors xmi:id="_UGiD4gNgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ide.ui.views.overrides.OverridesBrowser" label="Overrides" iconURI="platform:/plugin/org.eclipse.acceleo.ide.ui/icons/OverridesBrowser.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Acceleo Model to Text</tags>
+  </descriptors>
+  <descriptors xmi:id="_UGr04ANgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ui.interpreter.view" label="Interpreter" iconURI="platform:/plugin/org.eclipse.acceleo.ui.interpreter/icons/view_icon.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Acceleo Model to Text</tags>
+  </descriptors>
+  <descriptors xmi:id="_UGr04QNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.common.ui.view.timeProfiler" label="Time Profiler View" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.png" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Sirius Profiler</tags>
+  </descriptors>
+  <descriptors xmi:id="_UGr04gNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.ui.tools.views.interpreterview" label="Model requests interpreter" iconURI="platform:/plugin/org.eclipse.sirius.ui/icons/full/others/information.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Sirius</tags>
+  </descriptors>
+  <descriptors xmi:id="_UGr04wNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.ui.tools.views.model.explorer" label="Model Explorer" iconURI="platform:/plugin/org.eclipse.sirius.ui/icons/full/others/ModelExplorer.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Sirius</tags>
   </descriptors>
   <trimContributions xmi:id="_2r10UF9tEeO-yojH_y4TJA" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
     <children xsi:type="menu:ToolControl" xmi:id="_76uUAF9tEeO-yojH_y4TJA" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
@@ -2380,6 +2536,580 @@
   <commands xmi:id="_Cocekf6NEeaVAMUsHfOAvA" elementId="AUTOGEN:::org.eclipse.wb.core.ui.actionset/org.eclipse.wb.core.wizards.actions.NewDesignerTypeDropDownAction" commandName="New Visual Class" description="Create new visual classes" category="_oQiYa_xaEeaNMd1EO1--kA"/>
   <commands xmi:id="_Cocekv6NEeaVAMUsHfOAvA" elementId="AUTOGEN:::org.eclipse.ui.texteditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction" commandName="label" category="_oQiYa_xaEeaNMd1EO1--kA"/>
   <commands xmi:id="_Cocek_6NEeaVAMUsHfOAvA" elementId="AUTOGEN:::org.eclipse.pde.ui.logViewActions/org.eclipse.jdt.debug.ui.LogViewActions.showStackTrace" commandName="Show Stack Trace in Console View" description="Show Stack Trace in Console View" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFDypgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.PrimitiveTypeCreateCommand" commandName="Create a new PrimitiveType" description="Create a new PrimitiveType" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFDypwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.MergeNodeCreateCommand" commandName="Create a new MergeNode" description="Create a new MergeNode" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFDyqANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.search.findrefs" commandName="References" description="Searches for references to the selected element in the workspace" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFDyqQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.column.label.feature.display.isderived" commandName="Display Column Label Feature IsDerived" category="_kFDylANfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFDyqgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.column.disconnect.slave" commandName="Disconnect Rows Axis" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFDyqwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.diagram.common.commands.DeleteFromDiagram" commandName="Delete From Diagram Command" description="Delete the selection from diagram" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFDyrANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.column.label.feature.display.type" commandName="Display Column Label Feature Type" category="_kFDylANfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFDyrQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.CreateLinkActionCreateCommand" commandName="Create a new CreateLinkAction" description="Create a new CreateLinkAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFDyrgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.InterfaceRealizationCreateCommand" commandName="Create a new InterfaceRealization" description="Create a new InterfaceRealization" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFDyrwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.DependencyCreateCommand" commandName="Create a new Dependency" description="Create a new Dependency" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFDysANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.search.findrefs.workingset" commandName="References in Working Set" description="Searches for references to the selected element in a working set" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFDysQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.sort.columns.command" commandName="Sort Columns Command" category="_kFDyngNfEeeMQdkmKniP5g">
+    <parameters xmi:id="_kFM8gANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.sort.command.alphabetic.order.parameter" name="alphabetic_order" optional="false"/>
+  </commands>
+  <commands xmi:id="_kFM8gQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.TimeEventCreateCommand" commandName="Create a new TimeEvent" description="Create a new TimeEvent" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8ggNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.AcceptEventActionCreateCommand" commandName="Create a new AcceptEventAction" description="Create a new AcceptEventAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8gwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.InteractionCreateCommand" commandName="Create a new Interaction" description="Create a new Interaction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8hANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.LinkEndDataCreateCommand" commandName="Create a new LinkEndData" description="Create a new LinkEndData" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8hQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.command.ungroupDebugContexts" commandName="Ungroup" description="Ungroups the selected debug contexts" category="_kFDyoQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8hgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.core.commands.closealldiagram" commandName="Close All Diagrams" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM8hwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.viewpoints.policy.toolbar.diagrams.command" commandName="Create Dynamic Diagram Command" category="_kFDypANfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8iANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.mergeColumns" commandName="Merge/UnMerge Column Cells" description="Merge/UnMerge Column Cells option" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM8iQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ClearStructuralFeatureActionCreateCommand" commandName="Create a new ClearStructuralFeatureAction" description="Create a new ClearStructuralFeatureAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8igNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.command.castToArray" commandName="Cast To Type..." category="_kFDymQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8iwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.VariableCreateCommand" commandName="Create a new Variable" description="Create a new Variable" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8jANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.elementtypesconfigurations.undeploy" commandName="Disable ElementTypes Set configuration" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM8jQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.edit.column.header" commandName="Rename Header" description="Allows to Edit the name of the column header" category="_kFDynQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8jgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.LifelineCreateCommand" commandName="Create a new Lifeline" description="Create a new Lifeline" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8jwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.row.expand.selection.on.2.level.command" commandName="Expand Selection On 2 Levels" description="This command allows to Expand Selection On 2 Levels" category="_kFDykQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8kANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ActionInputPinCreateCommand" commandName="Create a new ActionInputPin" description="Create a new ActionInputPin" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8kQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ExecutionEnvironmentCreateCommand" commandName="Create a new ExecutionEnvironment" description="Create a new ExecutionEnvironment" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8kgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.views.properties.deploy" commandName="Deploy properties view configuration" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM8kwNfEeeMQdkmKniP5g" elementId="move" commandName="Move file" description="Move file" category="_oQiYWvxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM8lANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.refactor.extract.function" commandName="Extract Function - Refactoring " description="Extracts a function for the selected list of expressions or statements" category="_kFDylQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8lQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.PropertyCreateCommand" commandName="Create a new Property" description="Create a new Property" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8lgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.LoopNodeCreateCommand" commandName="Create a new LoopNode" description="Create a new LoopNode" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8lwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ImageCreateCommand" commandName="Create a new Image" description="Create a new Image" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8mANfEeeMQdkmKniP5g" elementId="org.eclipse.ui.navigator.Open" commandName="Open selected file" description="Open selected fsile" category="_oQiYWvxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM8mQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.menu.updateUnresolvedIncludes" commandName="Re-resolve Unresolved Includes" category="_oQiYX_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM8mgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.text.c.toggle.comment" commandName="Comment/Uncomment" description="Comments/Uncomments the selected lines" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8mwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ExpressionCreateCommand" commandName="Create a new Expression" description="Create a new Expression" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8nANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.FlowFinalNodeCreateCommand" commandName="Create a new FlowFinalNode" description="Create a new FlowFinalNode" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8nQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ExceptionHandlerCreateCommand" commandName="Create a new ExceptionHandler" description="Create a new ExceptionHandler" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8ngNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.row.label.display.label" commandName="Display Row Label" category="_kFDylANfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8nwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ExtensionEndCreateCommand" commandName="Create a new ExtensionEnd" description="Create a new ExtensionEnd" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8oANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.autoresize.columns" commandName="AutoResize Column" category="_kFDynQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8oQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.TemplateBindingCreateCommand" commandName="Create a new TemplateBinding" description="Create a new TemplateBinding" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8ogNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.command.reverseStepOver" commandName="Reverse Step Over" description="Perform Reverse Step Over" category="_kFDyowNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8owNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.row.label.feature.display.name" commandName="Display Row Label Feature Name" category="_kFDylANfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8pANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.search.findrefs.project" commandName="References in Project" description="Searches for references to the selected element in the enclosing project" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8pQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.RaiseExceptionActionCreateCommand" commandName="Create a new RaiseExceptionAction" description="Create a new RaiseExceptionAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8pgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.search.finddecl.project" commandName="Declaration in Project" description="Searches for declarations of the selected element in the enclosing project" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8pwNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.text.c.source.quickMenu" commandName="Show Source Quick Menu" description="Shows the source quick menu" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8qANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ReceptionCreateCommand" commandName="Create a new Reception" description="Create a new Reception" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8qQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ParameterSetCreateCommand" commandName="Create a new ParameterSet" description="Create a new ParameterSet" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8qgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.RegionCreateCommand" commandName="Create a new Region" description="Create a new Region" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8qwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.CommentCreateCommand" commandName="Create a new Comment" description="Create a new Comment" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8rANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.views.modelexplorer.sortelement" commandName="Sort elements" description="Sort elements" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8rQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.navigate.open.element.in.call.hierarchy" commandName="Open Element in Call Hierarchy" description="Open an element in the call hierarchy view" category="_oQiYV_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM8rgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ProfileApplicationCreateCommand" commandName="Create a new ProfileApplication" description="Create a new ProfileApplication" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8rwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.CentralBufferNodeCreateCommand" commandName="Create a new CentralBufferNode" description="Create a new CentralBufferNode" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8sANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.RemoveStructuralFeatureValueActionCreateCommand" commandName="Create a new RemoveStructuralFeatureValueAction" description="Create a new RemoveStructuralFeatureValueAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8sQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ValuePinCreateCommand" commandName="Create a new ValuePin" description="Create a new ValuePin" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8sgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.column.display.label" commandName="Display Column Label" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM8swNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ManifestationCreateCommand" commandName="Create a new Manifestation" description="Create a new Manifestation" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8tANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.IntervalCreateCommand" commandName="Create a new Interval" description="Create a new Interval" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8tQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.LiteralNullCreateCommand" commandName="Create a new LiteralNull" description="Create a new LiteralNull" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8tgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.AssociationClassCreateCommand" commandName="Create a new AssociationClass" description="Create a new AssociationClass" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8twNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.DurationObservationCreateCommand" commandName="Create a new DurationObservation" description="Create a new DurationObservation" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8uANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.make.ui.edit.text.makefile.uncomment" commandName="Uncomment" description="Uncomment the selected # style comment lines" category="_kFDymANfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8uQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.GateCreateCommand" commandName="Create a new Gate" description="Create a new Gate" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8ugNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.views.modelexplorer.searchelement" commandName="Quick Search" description="Search an element in the model explorer" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8uwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.InterfaceCreateCommand" commandName="Create a new Interface" description="Create a new Interface" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8vANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.modelrepair.switchprofiles" commandName="Switch Profiles" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM8vQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.menu.findUnresolvedIncludes" commandName="Search for Unresolved Includes" category="_oQiYX_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM8vgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.InformationFlowCreateCommand" commandName="Create a new InformationFlow" description="Create a new InformationFlow" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8vwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.LiteralStringCreateCommand" commandName="Create a new LiteralString" description="Create a new LiteralString" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8wANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.DestroyLinkActionCreateCommand" commandName="Create a new DestroyLinkAction" description="Create a new DestroyLinkAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8wQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ReadExtentActionCreateCommand" commandName="Create a new ReadExtentAction" description="Create a new ReadExtentAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8wgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.make.ui.edit.text.makefile.comment" commandName="Comment" description="Turn the selected lines into # style comments" category="_kFDymANfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8wwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.autoresize.rows" commandName="AutoResize Row" category="_kFDykQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8xANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ProtocolConformanceCreateCommand" commandName="Create a new ProtocolConformance" description="Create a new ProtocolConformance" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8xQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.PortCreateCommand" commandName="Create a new Port" description="Create a new Port" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8xgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.refactoring.command.ExtractConstant" commandName="Extract Constant..." category="_kFDylQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8xwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.StringExpressionCreateCommand" commandName="Create a new StringExpression" description="Create a new StringExpression" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8yANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.command.loadAllSymbols" commandName="Load Symbols For All" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM8yQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.text.c.indent" commandName="Indent Line" description="Indents the current line" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8ygNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.menu.createParserLog" commandName="Create Parser Log File" category="_oQiYX_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM8ywNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.LiteralIntegerCreateCommand" commandName="Create a new LiteralInteger" description="Create a new LiteralInteger" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8zANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.text.c.goto.next.bookmark" commandName="Next Bookmark" description="Goes to the next bookmark of the selected file" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8zQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.command.addRegisterGroup" commandName="Add RegisterGroup" description="Adds a Register Group" category="_kFDykwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8zgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.command.resumeWithoutSignal" commandName="Resume Without Signal" description="Resume Without Signal" category="_kFDynANfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8zwNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.text.c.add.include" commandName="Add Include" description="Create include statement on selection" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM80ANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.InformationItemCreateCommand" commandName="Create a new InformationItem" description="Create a new InformationItem" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM80QNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.IntervalConstraintCreateCommand" commandName="Create a new IntervalConstraint" description="Create a new IntervalConstraint" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM80gNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.row.index.style" commandName="Change Row Index Style" category="_oQiYa_xaEeaNMd1EO1--kA">
+    <parameters xmi:id="_kFM80wNfEeeMQdkmKniP5g" elementId="org.eclipse.ui.commands.radioStateParameter" name="ColumnHeaderParameter" optional="false"/>
+  </commands>
+  <commands xmi:id="_kFM81ANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.PinCreateCommand" commandName="Create a new Pin" description="Create a new Pin" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM81QNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.OccurrenceSpecificationCreateCommand" commandName="Create a new OccurrenceSpecification" description="Create a new OccurrenceSpecification" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM81gNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.CommunicationPathCreateCommand" commandName="Create a new CommunicationPath" description="Create a new CommunicationPath" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM81wNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.row.label.feature.display.isderived" commandName="Display Row Label Feature IsDerived" category="_kFDylANfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM82ANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.views.modelexplorer.duplicate.command" commandName="Duplicate" description="The Command to duplicate the selected element" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM82QNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.validation.ValidateModelCommand" commandName="ValidateModel" description="ValidateModel" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM82gNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.ui.menu.commands.QuickFormattingUpperCaseCommand" commandName="Upper Case Quick Format Command" description="The command to quickly format in uppercase the selected labels" category="_kFDyoANfEeeMQdkmKniP5g">
+    <parameters xmi:id="_kFM82wNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.ui.menu.quickformatcommandParameter" name="name" optional="false"/>
+  </commands>
+  <commands xmi:id="_kFM83ANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.dsf.ui.addRegistersExpression" commandName="Add Expression Group > Registers" category="_oQiYYfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM83QNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.command.restoreRegisterGroups" commandName="Restore Default Register Groups" description="Restores the Default Register Groups" category="_kFDykwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM83gNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.EnumerationLiteralCreateCommand" commandName="Create a new EnumerationLiteral" description="Create a new EnumerationLiteral" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM83wNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.table.hierarchic.style" commandName="Change Display Style" category="_kFDylANfEeeMQdkmKniP5g">
+    <parameters xmi:id="_kFM84ANfEeeMQdkmKniP5g" elementId="org.eclipse.ui.commands.radioStateParameter" name="HierarchicalStyleParameter" optional="false"/>
+  </commands>
+  <commands xmi:id="_kFM84QNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.editor.previousTabCommand" commandName="Previous Tab" category="_oQiYV_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM84gNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.open.call.hierarchy" commandName="Open Call Hierarchy" description="Opens the call hierarchy for the selected element" category="_oQiYV_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM84wNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ElementImportCreateCommand" commandName="Create a new ElementImport" description="Create a new ElementImport" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM85ANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.dsf.ui.addLocalsExpression" commandName="Add Expression Group > Local Variables" category="_oQiYYfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM85QNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.StructuredActivityNodeCreateCommand" commandName="Create a new StructuredActivityNode" description="Create a new StructuredActivityNode" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM85gNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.dsf.debug.ui.disassembly.commands.gotoPC" commandName="Go to Program Counter" description="Navigate to current program counter" category="_oQiYYfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM85wNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.InteractionOperandCreateCommand" commandName="Create a new InteractionOperand" description="Create a new InteractionOperand" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM86ANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.TemplateSignatureCreateCommand" commandName="Create a new TemplateSignature" description="Create a new TemplateSignature" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM86QNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.diagram.composite.command.manage.interfaces" commandName="Manage Provided Interfaces" description="Allows to manage easily provided Interfaces for a Port" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM86gNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ParameterCreateCommand" commandName="Create a new Parameter" description="Create a new Parameter" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM86wNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ConnectionPointReferenceCreateCommand" commandName="Create a new ConnectionPointReference" description="Create a new ConnectionPointReference" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM87ANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.sort.rows.command" commandName="Sort Rows Command" category="_kFDyngNfEeeMQdkmKniP5g">
+    <parameters xmi:id="_kFM87QNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.sort.command.alphabetic.order.parameter" name="alphabetic_order" optional="false"/>
+  </commands>
+  <commands xmi:id="_kFM87gNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.row.hide.allcategories.command" commandName="Hide All Categories Command" description="This command allows to Hide all categories displayed in a table" category="_kFDykQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM87wNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.loadRowAxisProvider" commandName="Retrieve a saved axis provider for rows" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM88ANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.navigate.opentype" commandName="Open Element" description="Open an element in an Editor" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM88QNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.InstanceValueCreateCommand" commandName="Create a new InstanceValue" description="Create a new InstanceValue" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM88gNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.DecisionNodeCreateCommand" commandName="Create a new DecisionNode" description="Create a new DecisionNode" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM88wNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.JoinNodeCreateCommand" commandName="Create a new JoinNode" description="Create a new JoinNode" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM89ANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.validation.ValidateSubtreeCommand" commandName="ValidateSubtree" description="ValidateSubtree" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM89QNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.menu.updateWithModifiedFiles" commandName="Update Index with Modified Files" category="_oQiYX_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM89gNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.destroy.column.element" commandName="Destroy Column Element" category="_kFDynQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM89wNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.mergeSelectedColumns" commandName="Merge/UnMerge Column Axis Cells" description="Merge/UnMerge Selected column Axis' Cells option" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM8-ANfEeeMQdkmKniP5g" elementId="org.eclipse.umlgen.gen.java.ui.generate" commandName="Generate Java Code" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM8-QNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.UseCaseCreateCommand" commandName="Create a new UseCase" description="Create a new UseCase" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8-gNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.column.label.feature.display.multiplicity" commandName="Display Column Label Feature Multiplicity" category="_kFDylANfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8-wNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.AcceptCallActionCreateCommand" commandName="Create a new AcceptCallAction" description="Create a new AcceptCallAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8_ANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.QualifierValueCreateCommand" commandName="Create a new QualifierValue" description="Create a new QualifierValue" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8_QNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.TimeConstraintCreateCommand" commandName="Create a new TimeConstraint" description="Create a new TimeConstraint" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM8_gNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.dsf.debug.ui.refreshAll" commandName="Refresh Debug Views" description="Refresh all data in debug views" category="_oQiYYfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM8_wNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ActionExecutionSpecificationCreateCommand" commandName="Create a new ActionExecutionSpecification" description="Create a new ActionExecutionSpecification" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9AANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ExtensionPointCreateCommand" commandName="Create a new ExtensionPoint" description="Create a new ExtensionPoint" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9AQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.StereotypeCreateCommand" commandName="Create a new Stereotype" description="Create a new Stereotype" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9AgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.diagram.activity.GlobalSynchronizePinsParametersCommand" commandName="Global Synchronize pins and parameters" description="Global Synchronize pins and parameters" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9AwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.StateMachineCreateCommand" commandName="Create a new StateMachine" description="Create a new StateMachine" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9BANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.text.c.toggleMarkOccurrences" commandName="Toggle Mark Occurrences" description="Toggles mark occurrences in C/C++ editors" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9BQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.diagram.composite.LoadResourceAction" commandName="Load Resource" category="_kFDyogNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9BgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.row.display.label" commandName="Display Row Label" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9BwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.modelrepair.switchlibraries" commandName="Switch Libraries" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9CANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.text.c.uncomment" commandName="Uncomment" description="Uncomments the selected // style comment lines" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9CQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.validation.ValidateDelMarkersFromModelCommand" commandName="ValidateDelMarkersFromModel" description="ValidateDelMarkersFromModel" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9CgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ProfileCreateCommand" commandName="Create a new Profile" description="Create a new Profile" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9CwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.views.modelexplorer.LoadBrowserCustomization" commandName="Customize Model Explorer" description="Load a customization for the papyrus browser" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9DANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.make.ui.targetBuildCommand" commandName="Make Target Build" description="Invoke a make target build for the selected container." category="_oQiYX_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9DQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.text.c.organize.includes" commandName="Organize Includes" description="Evaluates all required includes and replaces the current includes" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9DgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.validation.SelectAndValidateSubtreeCommand" commandName="SelectAndValidate" description="SelectAndValidate" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9DwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.DestroyObjectActionCreateCommand" commandName="Create a new DestroyObjectAction" description="Create a new DestroyObjectAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9EANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.DataTypeCreateCommand" commandName="Create a new DataType" description="Create a new DataType" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9EQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.row.expand.all.on.selection.command" commandName="Expand All for selection" description="This command allows to Expand All On Selection" category="_kFDykQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9EgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.text.c.goto.matching.bracket" commandName="Go to Matching Bracket" description="Moves the cursor to the matching bracket" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9EwNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.make.ui.targetBuildLastCommand" commandName="Rebuild Last Target" description="Rebuild the last make target for the selected container or project." category="_oQiYX_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9FANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.managedbuilder.ui.convertTarget" commandName="Convert To" category="_oQiYX_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9FQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.command.loadSymbols" commandName="Load Symbols" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9FgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.command.groupDebugContexts" commandName="Group" description="Groups the selected debug contexts" category="_kFDyoQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9FwNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.text.c.select.enclosing" commandName="Select Enclosing C/C++ Element" description="Expand the selection to enclosing C/C++ element" category="_oQiYTfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9GANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.TriggerCreateCommand" commandName="Create a new Trigger" description="Create a new Trigger" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9GQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.IncludeCreateCommand" commandName="Create a new Include" description="Create a new Include" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9GgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.saveColumnAxisProvider" commandName="Save the current column axis provider" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9GwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.createdestroyrows" commandName="Select the rows to Show" description="Open a dialog to select the rows to display" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9HANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.destroy.row" commandName="Destroy Row" category="_kFDykQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9HQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.RefineCreateCommand" commandName="Create a new Refine" description="Create a new Refine" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9HgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.column.display.index" commandName="Display Column Index" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9HwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.FinalStateCreateCommand" commandName="Create a new FinalState" description="Create a new FinalState" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9IANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.elementtypesconfigurations.deploy" commandName="Deploy ElementTypes Set configuration" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9IQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.PartDecompositionCreateCommand" commandName="Create a new PartDecomposition" description="Create a new PartDecomposition" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9IgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.GeneralOrderingCreateCommand" commandName="Create a new GeneralOrdering" description="Create a new GeneralOrdering" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9IwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.UnmarshallActionCreateCommand" commandName="Create a new UnmarshallAction" description="Create a new UnmarshallAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9JANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.InteractionUseCreateCommand" commandName="Create a new InteractionUse" description="Create a new InteractionUse" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9JQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.command.reverseStepInto" commandName="Reverse Step Into" description="Perform Reverse Step Into" category="_kFDyowNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9JgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.TimeObservationCreateCommand" commandName="Create a new TimeObservation" description="Create a new TimeObservation" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9JwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.createdestroycolumns" commandName="Select the columns to Show" description="Open a dialog to select the columns to display" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9KANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.editor.nextTabCommand" commandName="Next Tab" category="_oQiYV_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9KQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.FunctionBehaviorCreateCommand" commandName="Create a new FunctionBehavior" description="Create a new FunctionBehavior" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9KgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.CollaborationUseCreateCommand" commandName="Create a new CollaborationUse" description="Create a new CollaborationUse" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9KwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ExpansionNodeCreateCommand" commandName="Create a new ExpansionNode" description="Create a new ExpansionNode" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9LANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ForkNodeCreateCommand" commandName="Create a new ForkNode" description="Create a new ForkNode" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9LQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ArtifactCreateCommand" commandName="Create a new Artifact" description="Create a new Artifact" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9LgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ConditionalNodeCreateCommand" commandName="Create a new ConditionalNode" description="Create a new ConditionalNode" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9LwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.saveRowAxisProvider" commandName="Save the current row axis provider" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9MANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.LinkEndCreationDataCreateCommand" commandName="Create a new LinkEndCreationData" description="Create a new LinkEndCreationData" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9MQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.BehaviorExecutionSpecificationCreateCommand" commandName="Create a new BehaviorExecutionSpecification" description="Create a new BehaviorExecutionSpecification" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9MgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ReduceActionCreateCommand" commandName="Create a new ReduceAction" description="Create a new ReduceAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9MwNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.refactor.extract.local.variable" commandName="Extract Local Variable - Refactoring " description="Extracts a local variable for the selected expression" category="_kFDylQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9NANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.PseudostateCreateCommand" commandName="Create a new Pseudostate" description="Create a new Pseudostate" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9NQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.AbstractionCreateCommand" commandName="Create a new Abstraction" description="Create a new Abstraction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9NgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.InterruptibleActivityRegionCreateCommand" commandName="Create a new InterruptibleActivityRegion" description="Create a new InterruptibleActivityRegion" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9NwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.MessageOccurrenceSpecificationCreateCommand" commandName="Create a new MessageOccurrenceSpecification" description="Create a new MessageOccurrenceSpecification" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9OANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ProtocolTransitionCreateCommand" commandName="Create a new ProtocolTransition" description="Create a new ProtocolTransition" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9OQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.PackageImportCreateCommand" commandName="Create a new PackageImport" description="Create a new PackageImport" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9OgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.TemplateParameterCreateCommand" commandName="Create a new TemplateParameter" description="Create a new TemplateParameter" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9OwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.core.commands.closediagram" commandName="Close Diagram" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9PANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.loadColumnAxisProvider" commandName="Retrieve a saved axis provider for columns" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9PQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.refactoring.command.ExtractLocalVariable" commandName="Extract Local Variable..." category="_kFDylQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9PgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.core.commands.closeothersdiagrams" commandName="Close Other Diagrams" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9PwNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.codan.commands.runCodanCommand" commandName="Run Code Analysis" category="_kFDynwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9QANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ValueSpecificationActionCreateCommand" commandName="Create a new ValueSpecificationAction" description="Create a new ValueSpecificationAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9QQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.gmfdiag.menu.toggleCanonical" commandName="Synchronized with Model" description="Automatically synchronize contents with the underlying model elements" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9QgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.excludeCommand" commandName="Exclude from Build" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9QwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.destroy.row.element" commandName="Destroy Row Element" category="_kFDykQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9RANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.command.startTracing" commandName="Start Tracing " description="Start Tracing Experiment" category="_kFDypQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9RQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.row.label.display.icon" commandName="Display Row Label Icon" category="_kFDylANfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9RgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ConnectorEndCreateCommand" commandName="Create a new ConnectorEnd" description="Create a new ConnectorEnd" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9RwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.StateCreateCommand" commandName="Create a new State" description="Create a new State" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9SANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.CallEventCreateCommand" commandName="Create a new CallEvent" description="Create a new CallEvent" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9SQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.NodeCreateCommand" commandName="Create a new Node" description="Create a new Node" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9SgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.dsf.gdb.ui.command.selectPreviousTraceRecord" commandName="Previous Trace Record" description="Select Previous Trace Record" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9SwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ExecutionOccurrenceSpecificationCreateCommand" commandName="Create a new ExecutionOccurrenceSpecification" description="Create a new ExecutionOccurrenceSpecification" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9TANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.make.ui.targetCreateCommand" commandName="Create Make Target" description="Create a new make build target for the selected container." category="_oQiYX_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9TQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.mergeSelectedRows" commandName="Merge/UnMerge Row Axis Cells" description="Merge/UnMerge Selected row Axis' Cells option" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9TgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.command.connect" commandName="Connect" description="Connect to a process" category="_kFDyoQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9TwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.AddStructuralFeatureValueActionCreateCommand" commandName="Create a new AddStructuralFeatureValueAction" description="Create a new AddStructuralFeatureValueAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9UANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.TestIdentityActionCreateCommand" commandName="Create a new TestIdentityAction" description="Create a new TestIdentityAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9UQNfEeeMQdkmKniP5g" elementId="com.codeaffine.gonsole.internal.command.OpenGitConsole" commandName="Open Git Console" description="Open the Git Console View" category="_oQiYS_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9UgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.GeneralizationCreateCommand" commandName="Create a new Generalization" description="Create a new Generalization" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9UwNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.specific_content_assist.command" commandName="C/C++ Content Assist" description="A parameterizable command that invokes content assist with a single completion proposal category" category="_oQiYTfxaEeaNMd1EO1--kA">
+    <parameters xmi:id="_kFM9VANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.specific_content_assist.category_id" name="type" optional="false"/>
+  </commands>
+  <commands xmi:id="_kFM9VQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.edit.row.header" commandName="Rename Header" description="Allows to Edit the name of the row header" category="_kFDykQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9VgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.LinkEndDestructionDataCreateCommand" commandName="Create a new LinkEndDestructionData" description="Create a new LinkEndDestructionData" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9VwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.OpaqueExpressionCreateCommand" commandName="Create a new OpaqueExpression" description="Create a new OpaqueExpression" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9WANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.extendedtypes.deploy" commandName="Deploy Extended Types Set configuration" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9WQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ModelCreateCommand" commandName="Create a new Model" description="Create a new Model" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9WgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.invert.axis" commandName="Invert Axis" description="This command allows to invert rows and columns" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9WwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.row.show.hide.category.command" commandName="Show/Hide Category for a given depth command" description="This command allows to Show/hide the categories for a given depth" category="_kFDykQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9XANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.GeneralizationSetCreateCommand" commandName="Create a new GeneralizationSet" description="Create a new GeneralizationSet" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9XQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.SendObjectActionCreateCommand" commandName="Create a new SendObjectAction" description="Create a new SendObjectAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9XgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.open.outline" commandName="Show outline" description="Shows outline" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9XwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.OperationTemplateParameterCreateCommand" commandName="Create a new OperationTemplateParameter" description="Create a new OperationTemplateParameter" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9YANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.menu.rebuildIndex" commandName="Rebuild Index" category="_oQiYX_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9YQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.SequenceNodeCreateCommand" commandName="Create a new SequenceNode" description="Create a new SequenceNode" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9YgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.StartObjectBehaviorActionCreateCommand" commandName="Create a new StartObjectBehaviorAction" description="Create a new StartObjectBehaviorAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9YwNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.command.stopTracing" commandName="Stop Tracing " description="Stop Tracing Experiment" category="_kFDypQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9ZANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.diagram.common.commands.Unload" commandName="Unload" description="Unload the corresponding submodel" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9ZQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.PackageMergeCreateCommand" commandName="Create a new PackageMerge" description="Create a new PackageMerge" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9ZgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.ui.menu.commands.QuickFormattingSwitchSpace2UnderscoreCommand" commandName="Switch Space to Underscore Quick Format Command" description="The command to quickly format by switching space and underscore in the selected labels" category="_kFDyoANfEeeMQdkmKniP5g">
+    <parameters xmi:id="_kFM9ZwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.ui.menu.quickformatcommandParameter" name="name" optional="false"/>
+  </commands>
+  <commands xmi:id="_kFM9aANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.diagram.clazz.LoadResourceAction" commandName="Load Resource" category="_kFDylgNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9aQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.mergeRows" commandName="Merge/UnMerge Row Cells" description="Merge/UnMerge Row Cells option" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9agNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ReadStructuralFeatureActionCreateCommand" commandName="Create a new ReadStructuralFeatureAction" description="Create a new ReadStructuralFeatureAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9awNfEeeMQdkmKniP5g" elementId="com.codeaffine.gonsole.internal.command.ShowInGitConsole" commandName="Show In Git Console" description="Show the selected resource in the Git Console View" category="_oQiYS_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9bANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.diagram.activity.SynchronizePinsParametersCommand" commandName="Synchronize pins and parameters" description="Synchronize pins and parameters" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9bQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.views.modelexplorer.popup.open.command" commandName="Open Command" description="The command to open in a tab" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9bgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.text.c.remove.block.comment" commandName="Remove Block Comment" description="Removes the block comment enclosing the selection" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9bwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.modelrepair.editlinks" commandName="Edit model dependencies" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9cANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.refactor.extract.constant" commandName="Extract Constant - Refactoring " description="Extracts a constant for the selected expression" category="_kFDylQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9cQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.OperationCreateCommand" commandName="Create a new Operation" description="Create a new Operation" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9cgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.open.include.browser" commandName="Open Include Browser" description="Open an include browser on the selected element" category="_oQiYV_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9cwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.core.sasheditor.command.tabdoubleclick" commandName="Rename diagram" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9dANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.command.editRegisterGroup" commandName="Edit Register Group" description="Edits a Register Group" category="_kFDykwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9dQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.creation.DeleteCommand" commandName="Delete" description="Delete" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9dgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ReplyActionCreateCommand" commandName="Create a new ReplyAction" description="Create a new ReplyAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9dwNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.managedbuilder.ui.rebuildConfigurations" commandName="Build Selected Configurations" category="_kFDymgNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9eANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.extendedtypes.undeploy" commandName="Disable Extended Types Set configuration" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9eQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ReadSelfActionCreateCommand" commandName="Create a new ReadSelfAction" description="Create a new ReadSelfAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9egNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.diagram.activity.LoadResourceAction" commandName="Load Resource" category="_kFDykgNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9ewNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.row.disconnect.slave" commandName="Disconnect Column Axis" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9fANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.InstanceSpecificationCreateCommand" commandName="Create a new InstanceSpecification" description="Create a new InstanceSpecification" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9fQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.LiteralBooleanCreateCommand" commandName="Create a new LiteralBoolean" description="Create a new LiteralBoolean" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9fgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.opencview" commandName="Show in C/C++ Project view" description="Shows the selected resource in the C/C++ Project view" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9fwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.validation.SelectAndValidateModelCommand" commandName="SelectAndValidate" description="SelectAndValidate" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9gANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.navigate.open.type.in.hierarchy" commandName="Open Type in Hierarchy" description="Open a type in the type hierarchy view" category="_oQiYV_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9gQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.command.breakpointProperties" commandName="C/C++ Breakpoint Properties" description="View and edit properties for a given C/C++ breakpoint" category="_oQiYYfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9ggNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.command.uncall" commandName="Uncall" description="Perform Uncall" category="_kFDyowNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9gwNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.make.ui.edit.text.makefile.opendecl" commandName="Open declaration" description="Follow to the directive definition" category="_kFDymANfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9hANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.emf.readonly.EnableWriteCommand" commandName="Enable write" description="Enable write" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9hQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.UsageCreateCommand" commandName="Create a new Usage" description="Create a new Usage" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9hgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.ui.menu.commands.QuickFormattingCapitalizeFirstLetterCommand" commandName="Capitalize First Letter Quick Format Command" description="The command to quickly format by capitalizing the first letter in the selected labels" category="_kFDyoANfEeeMQdkmKniP5g">
+    <parameters xmi:id="_kFM9hwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.ui.menu.quickformatcommandParameter" name="name" optional="false"/>
+  </commands>
+  <commands xmi:id="_kFM9iANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.gmfdiag.menu.selectelementswithsametype" commandName="Select Elements With Same Type" description="Select the elements in the current diagram which have the same type" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9iQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ReadLinkObjectEndActionCreateCommand" commandName="Create a new ReadLinkObjectEndAction" description="Create a new ReadLinkObjectEndAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9igNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.paste.diagram" commandName="Graphical Paste" description="Paste the elements in the current diagram" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9iwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.DurationIntervalCreateCommand" commandName="Create a new DurationInterval" description="Create a new DurationInterval" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9jANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.DurationCreateCommand" commandName="Create a new Duration" description="Create a new Duration" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9jQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.DestructionOccurrenceSpecificationCreateCommand" commandName="Create a new DestructionOccurrenceSpecification" description="Create a new DestructionOccurrenceSpecification" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9jgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.CreateObjectActionCreateCommand" commandName="Create a new CreateObjectAction" description="Create a new CreateObjectAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9jwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.InputPinCreateCommand" commandName="Create a new InputPin" description="Create a new InputPin" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9kANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.column.label.feature.display.name" commandName="Display Column Label Feature Name" category="_kFDylANfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9kQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.StateInvariantCreateCommand" commandName="Create a new StateInvariant" description="Create a new StateInvariant" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9kgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.DeviceCreateCommand" commandName="Create a new Device" description="Create a new Device" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9kwNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.command.reverseToggle" commandName="Reverse Toggle" description="Toggle Reverse Debugging" category="_kFDyowNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9lANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.column.display.filter" commandName="Display Row Filter" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9lQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.views.modelexplorer.popup.open.new.command" commandName="Open In New Tab Command" description="The command to open in a new tab" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9lgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.refactor.hide.method" commandName="Hide Member Function..." category="_kFDylQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9lwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ConsiderIgnoreFragmentCreateCommand" commandName="Create a new ConsiderIgnoreFragment" description="Create a new ConsiderIgnoreFragment" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9mANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.row.display.index" commandName="Display Row Index" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9mQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.AnyReceiveEventCreateCommand" commandName="Create a new AnyReceiveEvent" description="Create a new AnyReceiveEvent" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9mgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.InteractionConstraintCreateCommand" commandName="Create a new InteractionConstraint" description="Create a new InteractionConstraint" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9mwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.core.commands.dropdowncommand" commandName="dropdown tool" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9nANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.TimeExpressionCreateCommand" commandName="Create a new TimeExpression" description="Create a new TimeExpression" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9nQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.text.c.goto.next.member" commandName="Go to Next Member" description="Move the caret to the next member of the translation unit" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9ngNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.CreateLinkObjectActionCreateCommand" commandName="Create a new CreateLinkObjectAction" description="Create a new CreateLinkObjectAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9nwNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.open.quick.type.hierarchy" commandName="Quick Type Hierarchy" description="Shows quick type hierarchy" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9oANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.hover.backwardMacroExpansion" commandName="Back" description="Steps backward in macro expansions" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9oQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.destroy.column" commandName="Destroy Column" category="_kFDynQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9ogNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.column.index.style" commandName="Change Column Index Style" category="_oQiYa_xaEeaNMd1EO1--kA">
+    <parameters xmi:id="_kFM9owNfEeeMQdkmKniP5g" elementId="org.eclipse.ui.commands.radioStateParameter" name="ColumnHeaderParameter" optional="false"/>
+  </commands>
+  <commands xmi:id="_kFM9pANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.MessageCreateCommand" commandName="Create a new Message" description="Create a new Message" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9pQNfEeeMQdkmKniP5g" elementId="org.eclipse.umlgen.reverse.java.generate" commandName="Reverse Java code" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9pgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.RemoveVariableValueActionCreateCommand" commandName="Create a new RemoveVariableValueAction" description="Create a new RemoveVariableValueAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9pwNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.command.debugNewExecutable" commandName="Debug New Executable" description="Debug a new executable" category="_kFDyoQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9qANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.dsf.gdb.ui.command.selectNextTraceRecord" commandName="Next Trace Record" description="Select Next Trace Record" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9qQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.row.expand.all.tree.command" commandName="Expand All" description="This command allows to Expand All Node in the tree" category="_kFDykQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9qgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.column.label.display.icon" commandName="Display Column Labe Icon" category="_kFDylANfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9qwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.PackageCreateCommand" commandName="Create a new Package" description="Create a new Package" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9rANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.SignalCreateCommand" commandName="Create a new Signal" description="Create a new Signal" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9rQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.hover.forwardMacroExpansion" commandName="Forward" description="Steps forward in macro expansions" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9rgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.SendSignalActionCreateCommand" commandName="Create a new SendSignalAction" description="Create a new SendSignalAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9rwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.row.label.feature.display.type" commandName="Display Row Label Feature Type" category="_kFDylANfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9sANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ExtensionCreateCommand" commandName="Create a new Extension" description="Create a new Extension" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9sQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.TemplateParameterSubstitutionCreateCommand" commandName="Create a new TemplateParameterSubstitution" description="Create a new TemplateParameterSubstitution" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9sgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.OpaqueBehaviorCreateCommand" commandName="Create a new OpaqueBehavior" description="Create a new OpaqueBehavior" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9swNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.DeploymentSpecificationCreateCommand" commandName="Create a new DeploymentSpecification" description="Create a new DeploymentSpecification" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9tANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.refactor.getters.and.setters" commandName="Generate Getters and Setters..." description="Generates getters and setters for a selected field" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9tQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.row.show.allcategories.command" commandName="Show All Categories Command" description="This command allows to Show all categories displayed in a table" category="_kFDykQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9tgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.row.categories.command" commandName="Configure Categories" description="Allows to configure the categories to display in the Tree Table" category="_kFDykQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9twNfEeeMQdkmKniP5g" elementId="org.eclipse.gmf.runtime.diagram.ui.providers.duplicateNode" commandName="Duplicate" description="Duplicates the selection." category="_oQiYTfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9uANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.AddVariableValueActionCreateCommand" commandName="Create a new AddVariableValueAction" description="Create a new AddVariableValueAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9uQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.open.quick.macro.explorer" commandName="Explore Macro Expansion" description="Opens a quick view for macro expansion exploration" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9ugNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ExpansionRegionCreateCommand" commandName="Create a new ExpansionRegion" description="Create a new ExpansionRegion" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9uwNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.refactor.toggle.function" commandName="Toggle Function - Refactoring " description="Toggles the implementation between header and implementation file" category="_kFDylQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9vANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.command.reverseResume" commandName="Reverse Resume" description="Perform Reverse Resume" category="_kFDyowNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9vQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.menu.freshenAllFiles" commandName="Freshen All Files in Index" category="_oQiYX_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9vgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.AssociationBaseCreateCommand" commandName="Create a new AssociationBase" description="Create a new AssociationBase" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9vwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ReadLinkActionCreateCommand" commandName="Create a new ReadLinkAction" description="Create a new ReadLinkAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9wANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.text.c.find.word" commandName="Find Word" description="Selects a word and find the next occurrence" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9wQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.RedefinableTemplateSignatureCreateCommand" commandName="Create a new RedefinableTemplateSignature" description="Create a new RedefinableTemplateSignature" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9wgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ConnectableElementTemplateParameterCreateCommand" commandName="Create a new ConnectableElementTemplateParameter" description="Create a new ConnectableElementTemplateParameter" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9wwNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.text.c.select.previous" commandName="Select Previous C/C++ Element" description="Expand the selection to enclosing C/C++ element" category="_oQiYTfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9xANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.InitialNodeCreateCommand" commandName="Create a new InitialNode" description="Create a new InitialNode" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9xQNfEeeMQdkmKniP5g" elementId="org.eclipse.umlgen.reverse.java.diagram.generate" commandName="Reverse Java code with Diagrams" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9xgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.diagram.common.commands.Load" commandName="Load" description="Load the corresponding submodel" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9xwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.SubstitutionCreateCommand" commandName="Create a new Substitution" description="Create a new Substitution" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9yANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.TimeIntervalCreateCommand" commandName="Create a new TimeInterval" description="Create a new TimeInterval" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9yQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.text.rename.element" commandName="Rename - Refactoring " description="Renames the selected element" category="_kFDylQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9ygNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.managedbuilder.ui.cleanFiles" commandName="Clean Selected File(s)" description="Deletes build output files for the selected source files" category="_kFDymgNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9ywNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ActivityPartitionCreateCommand" commandName="Create a new ActivityPartition" description="Create a new ActivityPartition" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9zANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ClearAssociationActionCreateCommand" commandName="Create a new ClearAssociationAction" description="Create a new ClearAssociationAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9zQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.text.c.goto.prev.member" commandName="Go to Previous Member" description="Move the caret to the previous member of the translation unit" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9zgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.ui.menu.commands.QuickFormattingLowerCaseCommand" commandName="Lower Case Quick Format Command" description="The command to quickly format in lowercase the selected labels" category="_kFDyoANfEeeMQdkmKniP5g">
+    <parameters xmi:id="_kFM9zwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.ui.menu.quickformatcommandParameter" name="name" optional="false"/>
+  </commands>
+  <commands xmi:id="_kFM90ANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.diagram.activity.CreateActivityDiagramCommand" commandName="Create a new Activity Diagram" description="Create a new Activity Diagram" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM90QNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.SlotCreateCommand" commandName="Create a new Slot" description="Create a new Slot" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM90gNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.CallBehaviorActionCreateCommand" commandName="Create a new CallBehaviorAction" description="Create a new CallBehaviorAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM90wNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.diagram.composite.createCompositeDiagram" commandName="Create a new Composite Structure Diagram" description="Create a new Composite Structure Diagram" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM91ANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ActivityFinalNodeCreateCommand" commandName="Create a new ActivityFinalNode" description="Create a new ActivityFinalNode" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM91QNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.StartClassifierBehaviorActionCreateCommand" commandName="Create a new StartClassifierBehaviorAction" description="Create a new StartClassifierBehaviorAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM91gNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ComponentRealizationCreateCommand" commandName="Create a new ComponentRealization" description="Create a new ComponentRealization" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM91wNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.EnumerationCreateCommand" commandName="Create a new Enumeration" description="Create a new Enumeration" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM92ANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.text.c.surround.with.quickMenu" commandName="Surround With Quick Menu" description="Shows the Surround With quick menu" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM92QNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.CallOperationActionCreateCommand" commandName="Create a new CallOperationAction" description="Create a new CallOperationAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM92gNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.deleteConfigsCommand" commandName="Reset to Default" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM92wNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.DeploymentCreateCommand" commandName="Create a new Deployment" description="Create a new Deployment" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM93ANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ObjectFlowCreateCommand" commandName="Create a new ObjectFlow" description="Create a new ObjectFlow" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM93QNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ReadIsClassifiedObjectActionCreateCommand" commandName="Create a new ReadIsClassifiedObjectAction" description="Create a new ReadIsClassifiedObjectAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM93gNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.OpaqueActionCreateCommand" commandName="Create a new OpaqueAction" description="Create a new OpaqueAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM93wNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.CombinedFragmentCreateCommand" commandName="Create a new CombinedFragment" description="Create a new CombinedFragment" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM94ANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ActivityParameterNodeCreateCommand" commandName="Create a new ActivityParameterNode" description="Create a new ActivityParameterNode" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM94QNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.ui.menu.commands.QuickFormattingRemoveSpaceCommand" commandName="Remove Space Quick Format Command" description="The command to quickly format by removing space in the selected labels" category="_kFDyoANfEeeMQdkmKniP5g">
+    <parameters xmi:id="_kFM94gNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.ui.menu.quickformatcommandParameter" name="name" optional="false"/>
+  </commands>
+  <commands xmi:id="_kFM94wNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ClauseCreateCommand" commandName="Create a new Clause" description="Create a new Clause" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM95ANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.LiteralUnlimitedNaturalCreateCommand" commandName="Create a new LiteralUnlimitedNatural" description="Create a new LiteralUnlimitedNatural" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM95QNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.column.label.display.label" commandName="Display Column Label" category="_kFDylANfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM95gNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.managedbuilder.ui.buildFiles" commandName="Build Selected File(s)" description="Rebuilds the selected source files" category="_kFDymgNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM95wNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ContinuationCreateCommand" commandName="Create a new Continuation" description="Create a new Continuation" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM96ANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.views.modelexplorer.popup.close.command" commandName="Close Command" description="The command to close" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM96QNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ClearVariableActionCreateCommand" commandName="Create a new ClearVariableAction" description="Create a new ClearVariableAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM96gNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.commands.viewMemory" commandName="View Memory" description="View variable in memory view" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM96wNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.text.c.select.next" commandName="Select Next C/C++ Element" description="Expand the selection to next C/C++ element" category="_oQiYTfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM97ANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ExtendCreateCommand" commandName="Create a new Extend" description="Create a new Extend" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM97QNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.managedbuilder.ui.cleanAllConfigurations" commandName="Clean All Configurations" category="_kFDymgNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM97gNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ClassifierTemplateParameterCreateCommand" commandName="Create a new ClassifierTemplateParameter" description="Create a new ClassifierTemplateParameter" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM97wNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ComponentCreateCommand" commandName="Create a new Component" description="Create a new Component" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM98ANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.LiteralRealCreateCommand" commandName="Create a new LiteralReal" description="Create a new LiteralReal" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM98QNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ReclassifyObjectActionCreateCommand" commandName="Create a new ReclassifyObjectAction" description="Create a new ReclassifyObjectAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM98gNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ClassCreateCommand" commandName="Create a new Class" description="Create a new Class" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM98wNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.row.label.feature.display.multiplicity" commandName="Display Row Label Feature Multiplicity" category="_kFDylANfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM99ANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.command.saveTraceData" commandName="Save Trace Data " description="Save Trace Data to File" category="_kFDypQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM99QNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.diagram.clazz.CreateClassDiagramCommand" commandName="Create a new Class Diagram" description="Create a new Class Diagram" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM99gNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.command.StepIntoSelection" commandName="Step Into Selection" description="Step into the current selected statement" category="_oQiYYfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM99wNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.CollaborationCreateCommand" commandName="Create a new Collaboration" description="Create a new Collaboration" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9-ANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ConstraintCreateCommand" commandName="Create a new Constraint" description="Create a new Constraint" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9-QNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.open.type.hierarchy" commandName="Open Type Hierarchy" description="Open a type hierarchy on the selected element" category="_oQiYV_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM9-gNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.diagram.composite.commands.ShowHideRelatedContentsCommand" commandName="Show/Hide Related Contents Command" description="Call the Show/Hide Related Contents Command" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9-wNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.command.removeRegisterGroups" commandName="Remove Register Groups" description="Removes one or more Register Groups" category="_kFDykwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9_ANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.refactor.implement.method" commandName="Implement Method - Source Generation " description="Implements a method for a selected method declaration" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9_QNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ConnectorCreateCommand" commandName="Create a new Connector" description="Create a new Connector" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9_gNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.text.c.add.block.comment" commandName="Add Block Comment" description="Encloses the selection with a block comment" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM9_wNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.row.collapse.all.on.selection.command" commandName="Collapse All for selection" description="This command allows to Collapse All levels for selection" category="_kFDykQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-AANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.TraceCreateCommand" commandName="Create a new Trace" description="Create a new Trace" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-AQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.TransitionCreateCommand" commandName="Create a new Transition" description="Create a new Transition" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-AgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.OutputPinCreateCommand" commandName="Create a new OutputPin" description="Create a new OutputPin" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-AwNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.command.castToType" commandName="Cast To Type..." category="_kFDymQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-BANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.copy.diagram" commandName="Graphical Copy" description="Copy the elements in the current diagram" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-BQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ControlFlowCreateCommand" commandName="Create a new ControlFlow" description="Create a new ControlFlow" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-BgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.RealizationCreateCommand" commandName="Create a new Realization" description="Create a new Realization" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-BwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.import.command" commandName="Import from file" description="Import a file into a table" category="_kFDylANfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-CANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.diagram.commands.LoadResourceAction" commandName="Load Resource" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-CQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.cut.diagram" commandName="Graphical Cut" description="Cut the elements in the current diagram" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-CgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ActivityCreateCommand" commandName="Create a new Activity" description="Create a new Activity" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-CwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ProtocolStateMachineCreateCommand" commandName="Create a new ProtocolStateMachine" description="Create a new ProtocolStateMachine" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-DANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.DurationConstraintCreateCommand" commandName="Create a new DurationConstraint" description="Create a new DurationConstraint" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-DQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.text.c.comment" commandName="Comment" description="Turns the selected lines into // style comments" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-DgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.views.properties.undeploy" commandName="Disable properties view configuration" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM-DwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.AssociationCreateCommand" commandName="Create a new Association" description="Create a new Association" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-EANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.managedbuilder.ui.buildAllConfigurations" commandName="Build All Configurations" category="_kFDymgNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-EQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.BroadcastSignalActionCreateCommand" commandName="Create a new BroadcastSignalAction" description="Create a new BroadcastSignalAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-EgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.SignalEventCreateCommand" commandName="Create a new SignalEvent" description="Create a new SignalEvent" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-EwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.validation.ValidateDelMarkersFromSubtreeCommand" commandName="ValidateDelMarkersFromSubtree" description="ValidateDelMarkersFromSubtree" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-FANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ActorCreateCommand" commandName="Create a new Actor" description="Create a new Actor" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-FQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.row.collapse.all.tree.command" commandName="Collapse All" description="This command allows to Collapse All Tree" category="_kFDykQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-FgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.search.finddecl" commandName="Declaration" description="Searches for declarations of the selected element in the workspace" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-FwNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.command.restoreDefaultType" commandName="Restore Original Type" description="View and edit properties for a given C/C++ breakpoint" category="_kFDymQNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-GANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.dsf.debug.ui.disassembly.commands.gotoAddress" commandName="Go to Address..." description="Navigate to address" category="_oQiYYfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM-GQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.DataStoreNodeCreateCommand" commandName="Create a new DataStoreNode" description="Create a new DataStoreNode" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-GgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.text.c.sort.lines" commandName="Sort Lines" description="Sort selected lines alphabetically" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-GwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.exporttoXLScommand" commandName="Export to XLS" description="Export Table to XLS Command" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-HANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.mark.as.resolved.command" commandName="Mark As Resolved" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM-HQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.search.finddecl.workingset" commandName="Declaration in Working Set" description="Searches for declarations of the selected element in a working set" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-HgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ReadLinkObjectEndQualifierActionCreateCommand" commandName="Create a new ReadLinkObjectEndQualifierAction" description="Create a new ReadLinkObjectEndQualifierAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-HwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ChangeEventCreateCommand" commandName="Create a new ChangeEvent" description="Create a new ChangeEvent" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-IANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.ReadVariableActionCreateCommand" commandName="Create a new ReadVariableAction" description="Create a new ReadVariableAction" category="_kFDylwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-IQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.views.modelexplorer.close.all.command" commandName="Close All Command" description="The command to close all" category="_kFDyngNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-IgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.text.c.toggle.source.header" commandName="Toggle Source/Header" description="Toggles between corresponding source and header files" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-IwNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.text.c.format" commandName="Format" description="Formats Source Code" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kFM-JANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.text.c.select.last" commandName="Restore Last C/C++ Selection" description="Restore last selection in C/C++ editor" category="_oQiYTfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM-JQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint" commandName="Toggle Breakpoint" description="Toggle breakpoint in disassembly ruler" category="_oQiYYfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kFM-JgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.edit.opendecl" commandName="Open Declaration" description="Opens an editor on the selected element's declaration(s)" category="_kFDymwNfEeeMQdkmKniP5g"/>
+  <commands xmi:id="_kftHMANfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.debug.ui.debugActionSet/org.eclipse.cdt.debug.ui.actions.ResumeAtLine" commandName="Resume at Line (C/C++)" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kftHMQNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.debug.ui.debugActionSet/org.eclipse.cdt.debug.ui.actions.MoveToLine" commandName="Move to Line (C/C++)" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kftHMgNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.debug.ui.debugActionSet/org.eclipse.cdt.debug.ui.actions.ToggleInstructionStepMode" commandName="Instruction Stepping Mode" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kftHMwNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.make.ui.updateActionSet/org.eclipse.cdt.make.ui.UpdateMakeAction" commandName="Update Old Make Project..." description="Update Old Make Project" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kftHNANfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.make.ui.makeTargetActionSet/org.eclipse.cdt.make.ui.actions.buildLastTargetAction" commandName="Rebuild Last Target" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kftHNQNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.make.ui.makeTargetActionSet/org.eclipse.cdt.make.ui.makeTargetAction" commandName="Build..." category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kftHNgNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.ui.SearchActionSet/org.eclipse.cdt.ui.actions.OpenCSearchPage" commandName="C/C++..." category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kftHNwNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.ui.buildConfigActionSet/org.eclipse.cdt.ui.buildActiveConfigToolbarAction" commandName="Build Active Configuration" description="Build the active configurations of selected projects" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kftHOANfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.ui.buildConfigActionSet/org.eclipse.cdt.ui.buildConfigToolbarAction" commandName="Active Build Configuration" description="Manage configurations for the current project" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kftHOQNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.ui.buildConfigActionSet/org.eclipse.cdt.ui.manageConfigsAction2" commandName="Manage..." category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kftHOgNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.ui.buildConfigActionSet/org.eclipse.cdt.ui.buildConfigMenuAction" commandName="Set Active" description="Change active build configuration for project(s)" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kftHOwNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.ui.buildConfigActionSet/org.eclipse.cdt.ui.wsselection" commandName="Manage Working Sets..." category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kftHPANfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.ui.CElementCreationActionSet/org.eclipse.cdt.ui.actions.NewTypeDropDown" commandName="Class..." description="New C++ Class" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kftHPQNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.ui.CElementCreationActionSet/org.eclipse.cdt.ui.actions.NewFileDropDown" commandName="Source File..." description="New C/C++ Source File" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kftHPgNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.ui.CElementCreationActionSet/org.eclipse.cdt.ui.actions.NewFolderDropDown" commandName="Source Folder..." description="New C/C++ Source Folder" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kftHPwNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.ui.CElementCreationActionSet/org.eclipse.cdt.ui.actions.NewProjectDropDown" commandName="Project..." description="New C/C++ Project" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24MANfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.uml2.uml.editor.UMLEditorContributionID/org.eclipse.uml2.uml.editor.CreateExtensionActionID" commandName="Create Extension..." category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24MQNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.uml2.uml.editor.UMLEditorContributionID/org.eclipse.uml2.uml.editor.ReferenceMetamodelActionID" commandName="Reference Metamodel..." category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24MgNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.uml2.uml.editor.UMLEditorContributionID/org.eclipse.uml2.uml.editor.ReferenceMetaclassActionID" commandName="Reference Metaclass..." category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24MwNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.uml2.uml.editor.UMLEditorContributionID/org.eclipse.uml2.uml.editor.DefineProfileActionID" commandName="Define" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24NANfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.uml2.uml.editor.UMLEditorContributionID/org.eclipse.uml2.uml.editor.UnapplyProfileActionID" commandName="Unapply Profile..." category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24NQNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.uml2.uml.editor.UMLEditorContributionID/org.eclipse.uml2.uml.editor.MergePackageActionID" commandName="Merge..." category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24NgNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.uml2.uml.editor.UMLEditorContributionID/org.eclipse.uml2.uml.editor.ImportTypeActionID" commandName="Import Type..." category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24NwNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.uml2.uml.editor.UMLEditorContributionID/org.eclipse.uml2.uml.editor.ApplyProfileActionID" commandName="Apply Profile..." category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24OANfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.uml2.uml.editor.UMLEditorContributionID/org.eclipse.uml2.uml.editor.ExpandTemplatesActionID" commandName="Expand Templates..." category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24OQNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.uml2.uml.editor.UMLEditorContributionID/org.eclipse.uml2.uml.editor.UnapplyStereotypeActionID" commandName="Unapply Stereotype..." category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24OgNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.uml2.uml.editor.UMLEditorContributionID/org.eclipse.uml2.uml.editor.DestroyElementActionID" commandName="Destroy" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24OwNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.uml2.uml.editor.UMLEditorContributionID/org.eclipse.uml2.uml.editor.ApplyStereotypeActionID" commandName="Apply Stereotype..." category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24PANfEeeMQdkmKniP5g" elementId="AUTOGEN:::com.abstratt.mdd.frontend.textuml.ui.editorContributions/com.abstratt.mdd.frontend.textuml.ui.action.format" commandName="Format" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24PQNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.debug.ui.CEditor.BreakpointRulerActions/org.eclipse.cdt.debug.ui.CEditor.RulerTobbleBreakpointAction" commandName="%Dummy.label" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24PgNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.ui.editor.asm.AsmEditor.BreakpointRulerActions/org.eclipse.cdt.debug.ui.CEditor.RulerTobbleBreakpointAction" commandName="%Dummy.label" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24PwNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.ui.texteditor.ruler.actions/org.eclipse.cdt.internal.ui.text.correction.CSelectRulerAction" commandName="dummy" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24QANfEeeMQdkmKniP5g" elementId="AUTOGEN:::com.abstratt.graphviz.ui.graphicalViewActions/com.abstratt.imageviewer.renderClipboard" commandName="Render DOT from clipboard" description="Render DOT contents from the clipboard as image" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24QQNfEeeMQdkmKniP5g" elementId="AUTOGEN:::com.abstratt.imageviewer.graphicalViewActions/com.abstratt.imageviewer.saveFile" commandName="Save to..." description="Save image to file" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24QgNfEeeMQdkmKniP5g" elementId="AUTOGEN:::com.abstratt.imageviewer.graphicalViewActions/com.abstratt.imageviewer.copyImage" commandName="Copy to clipboard" description="Copy image to clipboard" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24QwNfEeeMQdkmKniP5g" elementId="AUTOGEN:::com.abstratt.imageviewer.graphicalViewActions/com.abstratt.imageviewer.autoUpdate" commandName="Toggle automatic synchronization" description="Toggle automatic synchronization" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24RANfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.debug.ui.debugview.toolbar/org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeActionDelegate" commandName="Instruction Stepping Mode" description="Instruction Stepping Mode" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24RQNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.debug.ui.debugView.menu/org.eclipse.cdt.debug.internal.ui.actions.ShowFullPathsAction" commandName="Show Full Paths" description="Show Full Paths" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24RgNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.debug.ui.breakpointView.menu/org.eclipse.cdt.debug.internal.ui.actions.ShowFullPathsAction" commandName="Show Full Paths" description="Show Full Paths" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24RwNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.debug.ui.breakpointView.menu/org.eclipse.cdt.debug.ui.addWatchpoint" commandName="Add Watchpoint (C/C++)..." description="Add Watchpoint (C/C++)" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24SANfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.debug.ui.breakpointView.menu/org.eclipse.cdt.debug.internal.ui.actions.AddEventBreakpointActionDelegate" commandName="Add Event Breakpoint (C/C++)..." description="Add Event Breakpoint (C/C++)" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24SQNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.debug.ui.breakpointView.menu/org.eclipse.cdt.debug.ui.addFunctionBreakpoint" commandName="Add Function Breakpoint (C/C++)..." description="Add Function Breakpoint (C/C++)" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24SgNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.debug.ui.breakpointView.menu/org.eclipse.cdt.debug.ui.addLineBreakpoint" commandName="Add Line Breakpoint (C/C++)..." description="Add Line Breakpoint (C/C++)" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24SwNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.debug.ui.variablesView.toolbar/org.eclipse.cdt.debug.internal.ui.actions.RemoveAllGlobalsActionDelegate" commandName="Remove All Global Variables" description="Remove All Global Variables" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24TANfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.debug.ui.variablesView.toolbar/org.eclipse.cdt.debug.internal.ui.actions.RemoveGlobalsActionDelegate" commandName="Remove Global Variables" description="Remove Selected Global Variables" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24TQNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.debug.ui.variablesView.toolbar/org.eclipse.cdt.debug.internal.ui.actions.AddGlobalsActionDelegate" commandName="Add Global Variables..." description="Add Global Variables" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24TgNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.debug.ui.expression.toolbar/org.eclipse.pinclone.expression.pinDebugContext" commandName="Pin to Debug Context" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24TwNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.debug.ui.expression.toolbar/org.eclipse.pinclone.expression.clone" commandName="Open New View" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24UANfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.debug.ui.variable.toolbar/org.eclipse.pinclone.variable.pinDebugContext" commandName="Pin to Debug Context" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24UQNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.debug.ui.variable.toolbar/org.eclipse.pinclone.variable.clone" commandName="Open New View" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24UgNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.debug.ui.register.toolbar/org.eclipse.pinclone.register.pinDebugContext" commandName="Pin to Debug Context" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24UwNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.debug.ui.register.toolbar/org.eclipse.pinclone.register.clone" commandName="Open New View" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24VANfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.viewmodel.variables.update.Refresh/org.eclipse.cdt.dsf.debug.ui.variables.viewmodel.update.actions.refresh" commandName="Refresh" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24VQNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.viewmodel.registers.update.Refresh/org.eclipse.cdt.dsf.debug.ui.registers.viewmodel.update.actions.refresh" commandName="Refresh" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24VgNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.viewmodel.expressions.update.Refresh/org.eclipse.cdt.dsf.debug.ui.expressions.viewmodel.update.actions.refresh" commandName="Refresh" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24VwNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.viewmodel.debugview.update.Refresh/org.eclipse.cdt.dsf.debug.ui.debugview.viewmodel.update.actions.refresh" commandName="Refresh" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24WANfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.debug.ui.disassembly.toolbar/org.eclipse.pinclone.disassembly.pinDebugContext" commandName="Pin to Debug Context" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_kf24WQNfEeeMQdkmKniP5g" elementId="AUTOGEN:::org.eclipse.cdt.debug.ui.disassembly.toolbar/org.eclipse.pinclone.disassembly.clone" commandName="Open New View" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6ppgNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.diagram.ui.removeBendpoints" commandName="Remove Bend-points" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6ppwNgEeeI5ruK5n1ldw" elementId="org.obeonetwork.dsl.uml2.actions.newUmlModel" commandName="New UML Model" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6pqANgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.diagram.ui.unpinElementsCommand" commandName="Unpin elements" description="Mark diagram elements as unpinned" category="_UB6ppQNgEeeI5ruK5n1ldw"/>
+  <commands xmi:id="_UB6pqQNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.diagram.ui.updateDiagram" commandName="Update Sirius diagram" description="Perform Sirius diagram update" category="_oQiYTfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6pqgNgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ide.ui.natures.addRemoveNatureCommand" commandName="Toggle Acceleo Nature" category="_oQiYWvxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6pqwNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.diagram.ui.command.deselectAll" commandName="Deselect all" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6prANgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ide.ui.search.references" commandName="Search References" description="Search the element references" category="_oQiYV_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6prQNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.diagram.ui.command.hideElement" commandName="Hide element" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6prgNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.ui.tools.internal.actions.nature.addRemoveNatureCommand" commandName="Create a Modeling project" category="_oQiYWvxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6prwNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.diagram.ui.revealElements" commandName="Reveal hidden elements" description="Reveal all the elements" category="_oQiYTfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6psANgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.diagram.ui.find.binding.FindElementAction" commandName="Find Element" description="Find in model" category="_UB6ppANgEeeI5ruK5n1ldw"/>
+  <commands xmi:id="_UB6psQNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.ui.navigator.actions.uml.scenario.create" commandName="Create Scenario" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6psgNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.ui.tools.uncontrolCommand" commandName="Uncontrol" category="_UB6ppQNgEeeI5ruK5n1ldw"/>
+  <commands xmi:id="_UB6pswNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.diagram.ui.hideLabel" commandName="Hide label" description="Hide the label of the element" category="_oQiYTfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6ptANgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ide.ui.refactor.documentation" commandName="Generate documentation" description="Generate the documentation of the selected element" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6ptQNgEeeI5ruK5n1ldw" elementId="org.obeonetwork.dsl.uml2.actions.openDashboard" commandName="Open Dashboard" category="_oQiYa_xaEeaNMd1EO1--kA">
+    <parameters xmi:id="_UB6ptgNgEeeI5ruK5n1ldw" elementId="org.obeonetwork.dsl.uml2.actions.openDashboard.param.model" name="model" typeId="org.obeonetwork.dsl.uml2.actions.openDashboard.param.modelType"/>
+  </commands>
+  <commands xmi:id="_UB6ptwNgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ide.ui.refactor.rename" commandName="Rename..." description="Rename the selected element and all its occurrences" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6puANgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ide.ui.extractAsQuery" commandName="Extract Query..." description="Extract the selected text as a new query" category="_oQiYTfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6puQNgEeeI5ruK5n1ldw" elementId="net.jeeeyul.eclipse.themes.command.open.url" commandName="Open URL" category="_oQiYa_xaEeaNMd1EO1--kA">
+    <parameters xmi:id="_UB6pugNgEeeI5ruK5n1ldw" elementId="url" name="URL" optional="false"/>
+  </commands>
+  <commands xmi:id="_UB6puwNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.diagram.ui.refreshSirius" commandName="Refresh Sirius" description="Refresh the element" category="_oQiYTfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6pvANgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.diagram.ui.resetOrigin" commandName="Reset Origin" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6pvQNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.diagram.ui.command.refreshElement" commandName="Refresh element" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6pvgNgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ide.ui.show.outline" commandName="Quick Outline" description="Show Quick Outline view" category="_oQiYV_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6pvwNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.diagram.ui.command.hideLabel" commandName="Hide label" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6pwANgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.ui.navigator.actions.uml.create.statemachine" commandName="Create State Machine Diagram" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6pwQNgEeeI5ruK5n1ldw" elementId="org.obeonetwork.dsl.uml2.migration.project" commandName="Migrate Project" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6pwgNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.ui.tools.controlCommand" commandName="Control" category="_UB6ppQNgEeeI5ruK5n1ldw"/>
+  <commands xmi:id="_UB6pwwNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.diagram.ui.command.validateDiagram" commandName="Validate Diagram" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6pxANgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.ui.navigator.actions.uml.create.profile" commandName="Create Profile Diagram" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6pxQNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.diagram.ui.command.synchronizedDiagram" commandName="Synchronized Diagram" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6pxgNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.ui.navigator.actions.uml.delete" commandName="Delete UML Element" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6pxwNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.ui.navigator.actions.uml.create.sequence" commandName="Create Sequence Diagram" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6pyANgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.diagram.ui.launchRules" commandName="Launch Rules" description="Launch all rules" category="_oQiYTfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6pyQNgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ide.ui.generatejavaservicesmodule" commandName="Generate Java services module" category="_oQiYWvxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6pygNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.table.ui.exportToCsv" commandName="Export to CSV" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6pywNgEeeI5ruK5n1ldw" elementId="org.eclipse.emf.codegen.ecore.ui.Generate" commandName="Generate Code" description="Generate code for the EMF models in the workspace" category="_UB6pogNgEeeI5ruK5n1ldw"/>
+  <commands xmi:id="_UB6pzANgEeeI5ruK5n1ldw" elementId="org.obeonetwork.dsl.uml2.discovery.commands.discoveryCommand" commandName="Install UML Components" category="_UB6powNgEeeI5ruK5n1ldw"/>
+  <commands xmi:id="_UB6pzQNgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ide.ui.configure.antStandAlone" commandName="Create Ant file for headless build." category="_oQiYWvxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6pzgNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.common.acceleo.mtl.ide.internal.convert" commandName="Convert to Acceleo project" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6pzwNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.ui.navigator.actions.uml.create.activity" commandName="Create Activity Diagram" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6p0ANgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.diagram.ui.hideElement" commandName="Hide element" description="Hide the element" category="_oQiYTfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6p0QNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.diagram.ui.pinElementsCommand" commandName="Pin elements" description="Mark diagram elements as pinned" category="_UB6ppQNgEeeI5ruK5n1ldw"/>
+  <commands xmi:id="_UB6p0gNgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ide.ui.extractAsTemplate" commandName="Extract Template..." description="Extract the selected text as a new template" category="_oQiYTfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6p0wNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.diagram.ui.command.showLabel" commandName="Show label" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6p1ANgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ide.ui.createForIf" commandName="As For/If..." description="Transform the selected text as a &quot;For/If&quot; block" category="_oQiYTfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6p1QNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.diagram.ui.command.revealAllElements" commandName="Reveal all elements" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6p1gNgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ide.ui.createProtectedArea" commandName="As Protected Area..." description="Transform the selected text as a protected area" category="_oQiYTfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6p1wNgEeeI5ruK5n1ldw" elementId="org.obeonetwork.dsl.uml2.actions.newUmlProject" commandName="New UML Project" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6p2ANgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ide.ui.open.declaration" commandName="Open Declaration" description="Open Declaration of the selected element" category="_oQiYV_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6p2QNgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ide.ui.configure.pom" commandName="Create pom.xml, feature and update site." category="_oQiYWvxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6p2gNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.diagram.ui.command.deleteFromDiagram" commandName="Delete From Diagram" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6p2wNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.diagram.ui.revealLabel" commandName="Show label" description="Show the label of the element" category="_oQiYTfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6p3ANgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ide.ui.comment" commandName="Comment" description="Comment selected lines" category="_oQiYTfxaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6p3QNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.diagram.ui.command.show.outline" commandName="Quick outline" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6p3gNgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ide.ui.refactor.pullup" commandName="Pull Up" description="Pull the selected template in another module" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UB6p3wNgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ui.interpreter.evaluateaction" commandName="Evaluate" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UkdWAANgEeeI5ruK5n1ldw" elementId="AUTOGEN:::acceleo.rulerActions/org.eclipse.acceleo.ide.ui.debug.actions.doubleClickBreakpointAction" commandName="Toggle Acceleo Breakpoint" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UkdWAQNgEeeI5ruK5n1ldw" elementId="AUTOGEN:::acceleo.rulerActions/org.eclipse.acceleo.ide.ui.debug.actions.clickBreakpointAction" commandName="Filter Acceleo Breakpoint" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UkdWAgNgEeeI5ruK5n1ldw" elementId="AUTOGEN:::acceleo.showWhitespaceCharactersAction/org.eclipse.acceleo.ide.ui.editors.template.showwhitespacecharacters" commandName="Show Whitespace Characters" description="Show Whitespace Characters" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UkdWAwNgEeeI5ruK5n1ldw" elementId="AUTOGEN:::acceleo.MarkOccurrencesToggle/org.eclipse.acceleo.ide.ui.editors.template.markoccurrences" commandName="Toggle Mark Occurrences" description="Toggle Mark Occurrences" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UkdWBANgEeeI5ruK5n1ldw" elementId="AUTOGEN:::org.eclipse.emf.exporter.genModelEditorContribution/org.eclipse.emf.exporter.ui.GenModelExportActionDelegate.Editor" commandName="Export Model..." category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UkdWBQNgEeeI5ruK5n1ldw" elementId="AUTOGEN:::org.eclipse.emf.importer.genModelEditorContribution/org.eclipse.emf.importer.ui.GenModelReloadActionDelegate.Editor" commandName="Reload..." category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UkdWBgNgEeeI5ruK5n1ldw" elementId="AUTOGEN:::org.eclipse.sirius.table.ui.editionTableEditorID.actions/org.eclipse.sirius.table.ui.refresh" commandName="Refresh" description="Force a refresh of the table" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UkdWBwNgEeeI5ruK5n1ldw" elementId="AUTOGEN:::org.eclipse.sirius.table.ui.crossTableEditorID.actions/org.eclipse.sirius.table.ui.refresh" commandName="Refresh" description="Force a refresh of the table" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UkdWCANgEeeI5ruK5n1ldw" elementId="AUTOGEN:::org.eclipse.sirius.tree.ui.EditorID.actions/org.eclipse.sirius.tree.ui.refresh" commandName="Refresh" description="Force a refresh of the tree" category="_oQiYa_xaEeaNMd1EO1--kA"/>
+  <commands xmi:id="_UkdWCQNgEeeI5ruK5n1ldw" elementId="AUTOGEN:::org.eclipse.acceleo.ui.interpreter.debug.VariableViewActions/org.eclipse.acceleo.ui.interpreter.debug.AddVariablesToInterpreterAction" commandName="Adds variables." description="Add the selected variables in the interpreter." category="_oQiYa_xaEeaNMd1EO1--kA"/>
   <addons xmi:id="_oQiYPvxaEeaNMd1EO1--kA" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_oQiYP_xaEeaNMd1EO1--kA" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_oQiYQPxaEeaNMd1EO1--kA" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
@@ -2393,6 +3123,7 @@
   <addons xmi:id="_oQiYSPxaEeaNMd1EO1--kA" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
   <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_oQiYSvxaEeaNMd1EO1--kA" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
+  <addons xmi:id="_UDtZYANgEeeI5ruK5n1ldw" contributorURI="plugin://net.jeeeyul.eclipse.themes" contributionURI="bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.internal.ActiveThemeTracker"/>
   <categories xmi:id="_oQiYS_xaEeaNMd1EO1--kA" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_oQiYTPxaEeaNMd1EO1--kA" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
   <categories xmi:id="_oQiYTfxaEeaNMd1EO1--kA" elementId="org.eclipse.ui.category.edit" name="Edit"/>
@@ -2430,4 +3161,30 @@
   <categories xmi:id="_CL998v6NEeaVAMUsHfOAvA" elementId="org.eclipse.team.cvs.ui.actionSet" name="CVS" description="Actions that apply when working with CVS repositories"/>
   <categories xmi:id="_CL998_6NEeaVAMUsHfOAvA" elementId="org.eclipse.pde.runtime.spy.commands.category" name="Spy"/>
   <categories xmi:id="_CL999P6NEeaVAMUsHfOAvA" elementId="org.eclipse.pde.ui.category.source" name="Manifest Editor Source" description="PDE Source Page actions"/>
+  <categories xmi:id="_kFDykQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.rows.command.category" name="NatTable Rows Catgerory" description="This category is used for all rows commands"/>
+  <categories xmi:id="_kFDykgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.diagram.activity.part.UMLDiagramEditorID" name="UML Editor Commands" description="UML Editor Commands"/>
+  <categories xmi:id="_kFDykwNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.category.registerGrouping" name="Register Grouping commands" description="Set of commands for Register Grouping"/>
+  <categories xmi:id="_kFDylANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.category" name="Papyrus Nattable Widget Category" description="This cateogy can be used for all Papyrus Nattable Widget commands"/>
+  <categories xmi:id="_kFDylQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.category.refactoring" name="Refactor - C++" description="C/C++ Refactorings"/>
+  <categories xmi:id="_kFDylgNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.diagram.clazz.part.UMLDiagramEditorID" name="UML Editor Commands" description="UML Editor Commands"/>
+  <categories xmi:id="_kFDylwNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.service.types.umlElementCreationCommands" name="Commands for the creation of UML elements"/>
+  <categories xmi:id="_kFDymANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.make.ui.category.source" name="Makefile Source" description="Makefile Source Actions"/>
+  <categories xmi:id="_kFDymQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.category.casting" name="Cast to Type or Array" description="Set of commands for displaying variables and expressions as other types or arrays."/>
+  <categories xmi:id="_kFDymgNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.managedbuilder.ui.category.build" name="C/C++ Build" description="C/C++ Build Actions"/>
+  <categories xmi:id="_kFDymwNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.ui.category.source" name="C/C++ Source" description="C/C++ Source Actions"/>
+  <categories xmi:id="_kFDynANfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.category.runControl" name="Run Control Commands" description="Set of commands for Run Control"/>
+  <categories xmi:id="_kFDynQNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.nattable.columns.command.category" name="NatTable Columns Category" description="This category is used for all columns Commands"/>
+  <categories xmi:id="_kFDyngNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.editor.category" name="Papyrus Category" description="this a category of papyrus commands"/>
+  <categories xmi:id="_kFDynwNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.codan.ui.commands.category" name="Code Analysis"/>
+  <categories xmi:id="_kFDyoANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.ui.quickformat" name="quickformat routines" description="quickformat routines"/>
+  <categories xmi:id="_kFDyoQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.category.debugViewLayout" name="Debug View Layout Commands" description="Set of commands for controlling the Debug View Layout"/>
+  <categories xmi:id="_kFDyogNfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.uml.diagram.composite.part.UMLDiagramEditorID" name="CompositeStructure Editor Commands" description="CompositeStructure Editor Commands"/>
+  <categories xmi:id="_kFDyowNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.category.reverseDebugging" name="Reverse Debugging Commands" description="Set of commands for Reverse Debugging"/>
+  <categories xmi:id="_kFDypANfEeeMQdkmKniP5g" elementId="org.eclipse.papyrus.infra.viewpoints.policy.commands" name="Dynamic Creation Commands"/>
+  <categories xmi:id="_kFDypQNfEeeMQdkmKniP5g" elementId="org.eclipse.cdt.debug.ui.category.tracing" name="Tracing Commands" description="Category for Tracing Commands"/>
+  <categories xmi:id="_UB6poQNgEeeI5ruK5n1ldw" elementId="org.eclipse.acceleo.ide.ui.category" name="Acceleo"/>
+  <categories xmi:id="_UB6pogNgEeeI5ruK5n1ldw" elementId="org.eclipse.emf.codegen.ecore.ui.Commands" name="EMF Code Generation" description="Commands for the EMF code generation tools"/>
+  <categories xmi:id="_UB6powNgEeeI5ruK5n1ldw" elementId="org.obeonetwork.dsl.uml2.discovery.commands.category" name="UML Designer Discovery"/>
+  <categories xmi:id="_UB6ppANgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.common.ui.category" name="Sirius"/>
+  <categories xmi:id="_UB6ppQNgEeeI5ruK5n1ldw" elementId="org.eclipse.sirius.ui.tools.commands" name="Sirius Commands"/>
 </application:Application>
