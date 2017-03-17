@@ -22,7 +22,7 @@ import org.w3c.dom.ranges.Range;
 
 public class Grid extends JFrame implements ActionListener {
 
-	public boolean Player = false;		//true = white ..... false = black
+	public boolean Player = true;		//true = white ..... false = black
 	public boolean Firstturn = true;
 	public String BorW;
 	public int GetActionCommand;
@@ -237,6 +237,11 @@ public class Grid extends JFrame implements ActionListener {
 	
 							if(twoDim[o-6][GetActionCommand%8].toString().equals("cBLACK")){
 								if(twoDim[o-7][GetActionCommand%8].toString().equals("cWHITE")){
+									if(twoDim[o-5][GetActionCommand%8].toString().equals("cBLACK")){
+										if(twoDim[o-4][GetActionCommand%8].toString().equals("cBLACK")){
+											if(twoDim[o-3][GetActionCommand%8].toString().equals("cBLACK")){
+												if(twoDim[o-2][GetActionCommand%8].toString().equals("cBLACK")){
+													if(twoDim[o-1][GetActionCommand%8].toString().equals("cBLACK")){
 								twoDim[o-1][GetActionCommand%8] = Chips.cWHITE;
 								twoDim[o-2][GetActionCommand%8] = Chips.cWHITE;
 								twoDim[o-3][GetActionCommand%8] = Chips.cWHITE;
@@ -250,7 +255,12 @@ public class Grid extends JFrame implements ActionListener {
 								theButtons[(o-5)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
 								theButtons[(o-6)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
 								
+										}
+									}
+								}
+							}	
 						}
+					}
 				}
 			}
 		}
@@ -307,21 +317,29 @@ public class Grid extends JFrame implements ActionListener {
 									theButtons[(o+3)*8 + (GetActionCommand%8)].setBackground(Color.BLACK);
 									theButtons[(o+4)*8 + (GetActionCommand%8)].setBackground(Color.BLACK);
 									theButtons[(o+5)*8 + (GetActionCommand%8)].setBackground(Color.BLACK);
+			
+									
+						
+									}
+								}
 							}
-					}
+						}
+					}		
 				}
 			}
-		}		
+		}
 	}
-}
-}
-}
 }
 }else{
 
 
 				if(twoDim[o-6][GetActionCommand%8].toString().equals("cWHITE")){
 					if(twoDim[o-7][GetActionCommand%8].toString().equals("cBLACK")){
+						if(twoDim[o-5][GetActionCommand%8].toString().equals("cWHITE")){
+							if(twoDim[o-4][GetActionCommand%8].toString().equals("cWHITE")){
+								if(twoDim[o-3][GetActionCommand%8].toString().equals("cWHITE")){
+									if(twoDim[o-2][GetActionCommand%8].toString().equals("cWHITE")){
+										if(twoDim[o-1][GetActionCommand%8].toString().equals("cWHITE")){
 					twoDim[o-1][GetActionCommand%8] = Chips.cBLACK;
 					twoDim[o-2][GetActionCommand%8] = Chips.cBLACK;
 					twoDim[o-3][GetActionCommand%8] = Chips.cBLACK;
@@ -335,15 +353,17 @@ public class Grid extends JFrame implements ActionListener {
 					theButtons[(o-5)*8 + (GetActionCommand%8)].setBackground(Color.BLACK);
 					theButtons[(o-6)*8 + (GetActionCommand%8)].setBackground(Color.BLACK);
 					
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
 			}
+		}		
 	}
-}
-}
-}		
-	
-	
-	
-}
 }
 
 	
@@ -372,7 +392,7 @@ public class Grid extends JFrame implements ActionListener {
 							
 							if((!theButtons[GetActionCommand-1].getBackground().toString().equals("java.awt.Color[r=0,g=255,b=0]"))&&(!theButtons[GetActionCommand+1].getBackground().toString().equals("java.awt.Color[r=0,g=255,b=0]"))
 									&&(!theButtons[GetActionCommand-2].getBackground().toString().equals("java.awt.Color[r=0,g=0,b=0]"))
-									&&(!theButtons[GetActionCommand-3].getBackground().toString().equals("java.awt.Color[r=0,g=0,b=0]"))){
+									&&(!theButtons[GetActionCommand+2].getBackground().toString().equals("java.awt.Color[r=0,g=0,b=0]"))){
 									theButtons[GetActionCommand-1].setBackground(Color.WHITE);
 									theButtons[GetActionCommand+1].setBackground(Color.WHITE);
 								}
@@ -538,12 +558,18 @@ public class Grid extends JFrame implements ActionListener {
 	
 							if(twoDim[GetActionCommand/8][o-6].toString().equals("cBLACK")){
 								if(twoDim[GetActionCommand/8][o-7].toString().equals("cWHITE")){
-								twoDim[GetActionCommand/8][o-1] = Chips.cWHITE;
-								twoDim[GetActionCommand/8][o-2] = Chips.cWHITE;
-								twoDim[GetActionCommand/8][o-3] = Chips.cWHITE;
-								twoDim[GetActionCommand/8][o-4] = Chips.cWHITE;
-								twoDim[GetActionCommand/8][o-5] = Chips.cWHITE;
-								twoDim[GetActionCommand/8][o-6] = Chips.cWHITE;
+									if(twoDim[GetActionCommand/8][o-5].toString().equals("cBLACK")){
+										if(twoDim[GetActionCommand/8][o-4].toString().equals("cBLACK")){
+											if(twoDim[GetActionCommand/8][o-3].toString().equals("cBLACK")){
+												if(twoDim[GetActionCommand/8][o-2].toString().equals("cBLACK")){
+													if(twoDim[GetActionCommand/8][o-1].toString().equals("cBLACK")){
+											
+										twoDim[GetActionCommand/8][o-1] = Chips.cWHITE;
+										twoDim[GetActionCommand/8][o-2] = Chips.cWHITE;
+										twoDim[GetActionCommand/8][o-3] = Chips.cWHITE;
+										twoDim[GetActionCommand/8][o-4] = Chips.cWHITE;
+										twoDim[GetActionCommand/8][o-5] = Chips.cWHITE;
+										twoDim[GetActionCommand/8][o-6] = Chips.cWHITE;
 								
 								
 								if((!theButtons[GetActionCommand-1].getBackground().toString().equals("java.awt.Color[r=0,g=255,b=0]"))){
@@ -569,9 +595,12 @@ public class Grid extends JFrame implements ActionListener {
 								}
 								
 								
-								
-								
+										}
+									}
+								}
+							}	
 						}
+					}
 				}
 			}
 		}
@@ -749,6 +778,11 @@ public class Grid extends JFrame implements ActionListener {
 
 	if(twoDim[GetActionCommand/8][o-6].toString().equals("cWHITE")){
 		if(twoDim[GetActionCommand/8][o-7].toString().equals("cBLACK")){
+			if(twoDim[GetActionCommand/8][o-5].toString().equals("cWHITE")){
+				if(twoDim[GetActionCommand/8][o-4].toString().equals("cWHITE")){
+					if(twoDim[GetActionCommand/8][o-3].toString().equals("cWHITE")){
+						if(twoDim[GetActionCommand/8][o-2].toString().equals("cWHITE")){
+							if(twoDim[GetActionCommand/8][o-1].toString().equals("cWHITE")){
 		twoDim[GetActionCommand/8][o-1] = Chips.cBLACK;
 		twoDim[GetActionCommand/8][o-2] = Chips.cBLACK;
 		twoDim[GetActionCommand/8][o-3] = Chips.cBLACK;
@@ -776,11 +810,16 @@ public class Grid extends JFrame implements ActionListener {
 			theButtons[GetActionCommand-5].setBackground(Color.WHITE);
 			theButtons[GetActionCommand-6].setBackground(Color.WHITE);
 			}
-		
+							
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
-}
 }		
 	
 	

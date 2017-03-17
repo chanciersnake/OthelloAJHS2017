@@ -209,27 +209,27 @@ public class BeginingGameScreen extends JFrame implements ActionListener {
 
     
 
-     //public void HowToPlay(){
+     public void HowToPlay(){
 
           
 
-         // HowtoPlay.setSize(550, 550);
+          HowtoPlay.setSize(550, 550);
 
-           //  HowtoPlay.setVisible(true);
+             HowtoPlay.setVisible(true);
 
-           //  HowtoPlay.setResizable(false);
+             HowtoPlay.setResizable(false);
 
-           //  HowtoPlay.setTitle("How to Play");
+             HowtoPlay.setTitle("How to Play");
 
-           //  HowtoPlay.getContentPane().setBackground(Color.decode("#ffffff"));
+             HowtoPlay.getContentPane().setBackground(Color.decode("#ffffff"));
 
              
-    																						//GAVIN DID THIS
+
              
 
-           //  setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
+             setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
 
-        // }
+         }
 
 
 
@@ -266,11 +266,14 @@ public class BeginingGameScreen extends JFrame implements ActionListener {
 
       if(arg0.getActionCommand().equals("RULES")){
 
-       //HowToPlay();
+       HowToPlay();
 
-      	}
-     }
-   }
+      }
+
+
+        }
+
+    }
 
 
 
