@@ -30,6 +30,9 @@ public class Grid extends JFrame implements ActionListener {
 	public int LeftRight;
 	public boolean InArow = false;
 	public int previousGetAction;
+	public int TurnCounter = 1;
+	public boolean HorizontalOutput = false;
+	public boolean VerticalOutput = false;
 	
 	
 	JButton[] theButtons = new JButton[65];
@@ -180,6 +183,7 @@ public class Grid extends JFrame implements ActionListener {
 						if(((o+1) != 7)&&(twoDim[o+2][GetActionCommand%8].toString().equals("cWHITE"))){
 							twoDim[o+1][GetActionCommand%8] = Chips.cWHITE;
 							theButtons[(o+1)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
+							
 							
 							}else{
 								if(((o+1) != 7)&&(twoDim[o+2][GetActionCommand%8].toString().equals("cBLACK"))){
@@ -829,14 +833,18 @@ public class Grid extends JFrame implements ActionListener {
 	
 	
 	public void CheckDiagnol(){
+	
 		
 	}
 	
 	
-	public void isMoveValid(){
+	
+		
+		
+	
+	public void isMoveValidVertical(){
 		
 	}
-	
 	
 	
 	
@@ -846,6 +854,7 @@ public class Grid extends JFrame implements ActionListener {
 		
 		//System.out.println(arg0.getActionCommand());
 		//System.out.println(Player);
+		
 		
 		
 		GetActionCommand = Integer.parseInt(arg0.getActionCommand());
@@ -862,6 +871,17 @@ public class Grid extends JFrame implements ActionListener {
 		}
 		
 		
+		
+		
+		
+		
+		
+		
+		int checkercount = 0;
+		
+		
+		
+		
 		for (int i = 0; i < 64; i++) {
 			
 			if((arg0.getActionCommand().equals(i + ""))&&(twoDim[Integer.parseInt(arg0.getActionCommand())/8][Integer.parseInt(arg0.getActionCommand())%8] == Chips.cWHITE)||
@@ -870,17 +890,37 @@ public class Grid extends JFrame implements ActionListener {
 				break;
 			}
 			
+			
+			
+			
 			if((arg0.getActionCommand().equals(i + ""))&&(Player == true)){
 				theButtons[Integer.parseInt(arg0.getActionCommand())].setBackground(Color.WHITE);
 				twoDim[Integer.parseInt(arg0.getActionCommand())/8][Integer.parseInt(arg0.getActionCommand())%8] = Chips.cWHITE;
 				
 				CheckVertical();
+				if(VerticalOutput == false){
+					checkercount += 1;
+					
+				}
 				CheckHorizontal();
+				if(HorizontalOutput == false){
+					checkercount += 1;
+				}
 				//CheckDiagnol();
+				
+				
+				if(checkercount == 2){
+					JOptionPane.showMessageDialog(null, "Error player " + BorW + " moved incorrectly, look at the rules and try again.");
+				}
+				
+				
 				
 				//System.out.println(twoDim[Integer.parseInt(arg0.getActionCommand())/8][Integer.parseInt(arg0.getActionCommand())%8]);
 				refreshtheJLabel();
+				TurnCounter++;
 				Player = false;
+				
+				checkercount = 0;
 				break;
 			
 			}
@@ -890,17 +930,37 @@ public class Grid extends JFrame implements ActionListener {
 				twoDim[Integer.parseInt(arg0.getActionCommand())/8][Integer.parseInt(arg0.getActionCommand())%8] = Chips.cBLACK;
 				
 				CheckVertical();
+				if(VerticalOutput == false){
+					checkercount += 1;
+					
+				}
 				CheckHorizontal();
+				if(HorizontalOutput == false){
+					checkercount += 1;
+				}
 				//CheckDiagnol();
+				
+				
+				if(checkercount == 2){
+					JOptionPane.showMessageDialog(null, "Error player " + BorW + " moved incorrectly, look at the rules and try again.");
+				}
+				
+				
+				
 				
 				//System.out.println(twoDim[Integer.parseInt(arg0.getActionCommand())/8][Integer.parseInt(arg0.getActionCommand())%8]);
 				refreshtheJLabel();
+				TurnCounter++;
 				Player = true;
+				
+				
+				checkercount = 0;
 				break;
 				
 				
 			}
 			
 		}
+		
 	}
 }
