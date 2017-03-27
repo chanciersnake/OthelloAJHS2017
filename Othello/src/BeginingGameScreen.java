@@ -59,7 +59,7 @@ public class BeginingGameScreen extends JFrame implements ActionListener {
 
     JLabel Othello = new JLabel("Othello");
 
-    JLabel CoolBackground = new JLabel(new ImageIcon("H:/OTHELLO/OthelloAJHS2017/gifgif.gif"));
+    JLabel CoolBackground = new JLabel(new ImageIcon("gifgif.gif"));		// or H:/OTHELLO/OthelloAJHS2017/gifgif.gif
 
     
 

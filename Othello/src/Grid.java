@@ -22,15 +22,11 @@ import org.w3c.dom.ranges.Range;
 
 public class Grid extends JFrame implements ActionListener {
 
-	public boolean Player = true;		//true = white ..... false = black
+	public boolean Player = false;		//true = white ..... false = black
 	public boolean Firstturn = true;
 	public String BorW;
 	public int GetActionCommand;
-	public int Down;
-	public int LeftRight;
-	public boolean InArow = false;
 	public int previousGetAction;
-	public int TurnCounter = 1;
 	public boolean HorizontalOutput = false;
 	public boolean VerticalOutput = false;
 	
@@ -174,8 +170,12 @@ public class Grid extends JFrame implements ActionListener {
 		if (Player == true){ 		//white
 			for(int o = 7; o >= 0; o --){
 				if(twoDim[o][GetActionCommand%8].toString().equals("cWHITE")){
+					//if((twoDim[o-1][GetActionCommand%8].toString().equals("cWHITE"))
+						//||(twoDim[o+1][GetActionCommand%8].toString().equals("cWHITE"))){
+						//break;
+					//}
 					if(o<7){
-						//if(GetActionCommand/8 != 7)
+						
 					if(twoDim[o+1][GetActionCommand%8].toString().equals("cBLACK")){
 						
 						
@@ -183,7 +183,7 @@ public class Grid extends JFrame implements ActionListener {
 						if(((o+1) != 7)&&(twoDim[o+2][GetActionCommand%8].toString().equals("cWHITE"))){
 							twoDim[o+1][GetActionCommand%8] = Chips.cWHITE;
 							theButtons[(o+1)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
-							
+							VerticalOutput = true;
 							
 							}else{
 								if(((o+1) != 7)&&(twoDim[o+2][GetActionCommand%8].toString().equals("cBLACK"))){
@@ -192,6 +192,7 @@ public class Grid extends JFrame implements ActionListener {
 										twoDim[o+2][GetActionCommand%8] = Chips.cWHITE;
 										theButtons[(o+1)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
 										theButtons[(o+2)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
+										VerticalOutput = true;
 										
 										}else{
 											if(twoDim[o+3][GetActionCommand%8].toString().equals("cBLACK")){
@@ -202,6 +203,8 @@ public class Grid extends JFrame implements ActionListener {
 												theButtons[(o+1)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
 												theButtons[(o+2)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
 												theButtons[(o+3)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
+												VerticalOutput = true;
+												
 										}else{
 											if(((o+3) != 7)&&(twoDim[o+4][GetActionCommand%8].toString().equals("cBLACK"))){
 												if(((o+4) != 7)&&(twoDim[o+5][GetActionCommand%8].toString().equals("cWHITE"))){
@@ -213,6 +216,8 @@ public class Grid extends JFrame implements ActionListener {
 												theButtons[(o+2)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
 												theButtons[(o+3)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
 												theButtons[(o+4)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
+												VerticalOutput = true;
+												
 										}else{
 											if(((o+4) != 7)&&(twoDim[o+5][GetActionCommand%8].toString().equals("cBLACK"))){
 												if(((o+5) != 7)&&(twoDim[o+6][GetActionCommand%8].toString().equals("cWHITE"))){
@@ -226,6 +231,8 @@ public class Grid extends JFrame implements ActionListener {
 												theButtons[(o+3)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
 												theButtons[(o+4)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
 												theButtons[(o+5)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
+												VerticalOutput = true;
+												
 										}
 								}
 							}
@@ -258,6 +265,7 @@ public class Grid extends JFrame implements ActionListener {
 								theButtons[(o-4)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
 								theButtons[(o-5)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
 								theButtons[(o-6)*8 + (GetActionCommand%8)].setBackground(Color.WHITE);
+								VerticalOutput = true;
 								
 										}
 									}
@@ -271,14 +279,19 @@ public class Grid extends JFrame implements ActionListener {
 	}		
 }else{
 	for(int o = 7; o >= 0; o --){
-		//isGetActionCommandEqual();
+		
 	if(twoDim[o][GetActionCommand%8].toString().equals("cBLACK")){
+		//if((twoDim[o-1][GetActionCommand%8].toString().equals("cBLACK"))
+				//||(twoDim[o+1][GetActionCommand%8].toString().equals("cBLACK"))){
+				//break;
+			//}
 		if(o<7){
 		if(twoDim[o+1][GetActionCommand%8].toString().equals("cWHITE")){
 			
 			if(((o+1) != 7)&&(twoDim[o+2][GetActionCommand%8].toString().equals("cBLACK"))){
 				twoDim[o+1][GetActionCommand%8] = Chips.cBLACK;
 				theButtons[(o+1)*8 + (GetActionCommand%8)].setBackground(Color.BLACK);
+				VerticalOutput = true;
 				
 				}else{
 					if(((o+1) != 7)&&(twoDim[o+2][GetActionCommand%8].toString().equals("cWHITE"))){
@@ -287,6 +300,7 @@ public class Grid extends JFrame implements ActionListener {
 							twoDim[o+2][GetActionCommand%8] = Chips.cBLACK;
 							theButtons[(o+1)*8 + (GetActionCommand%8)].setBackground(Color.BLACK);
 							theButtons[(o+2)*8 + (GetActionCommand%8)].setBackground(Color.BLACK);
+							VerticalOutput = true;
 							
 							}else{
 								if(twoDim[o+3][GetActionCommand%8].toString().equals("cWHITE")){
@@ -297,6 +311,7 @@ public class Grid extends JFrame implements ActionListener {
 									theButtons[(o+1)*8 + (GetActionCommand%8)].setBackground(Color.BLACK);
 									theButtons[(o+2)*8 + (GetActionCommand%8)].setBackground(Color.BLACK);
 									theButtons[(o+3)*8 + (GetActionCommand%8)].setBackground(Color.BLACK);
+									VerticalOutput = true;
 							}else{
 								if(((o+3) != 7)&&(twoDim[o+4][GetActionCommand%8].toString().equals("cWHITE"))){
 									if(twoDim[o+5][GetActionCommand%8].toString().equals("cBLACK")){
@@ -308,6 +323,7 @@ public class Grid extends JFrame implements ActionListener {
 									theButtons[(o+2)*8 + (GetActionCommand%8)].setBackground(Color.BLACK);
 									theButtons[(o+3)*8 + (GetActionCommand%8)].setBackground(Color.BLACK);
 									theButtons[(o+4)*8 + (GetActionCommand%8)].setBackground(Color.BLACK);
+									VerticalOutput = true;
 							}else{
 								if(twoDim[o+5][GetActionCommand%8].toString().equals("cWHITE")){
 									if(((o+5) != 7)&&(twoDim[o+6][GetActionCommand%8].toString().equals("cBLACK"))){
@@ -321,6 +337,7 @@ public class Grid extends JFrame implements ActionListener {
 									theButtons[(o+3)*8 + (GetActionCommand%8)].setBackground(Color.BLACK);
 									theButtons[(o+4)*8 + (GetActionCommand%8)].setBackground(Color.BLACK);
 									theButtons[(o+5)*8 + (GetActionCommand%8)].setBackground(Color.BLACK);
+									VerticalOutput = true;
 			
 									
 						
@@ -356,6 +373,7 @@ public class Grid extends JFrame implements ActionListener {
 					theButtons[(o-4)*8 + (GetActionCommand%8)].setBackground(Color.BLACK);
 					theButtons[(o-5)*8 + (GetActionCommand%8)].setBackground(Color.BLACK);
 					theButtons[(o-6)*8 + (GetActionCommand%8)].setBackground(Color.BLACK);
+					VerticalOutput = true;
 					
 											}
 										}
@@ -373,22 +391,29 @@ public class Grid extends JFrame implements ActionListener {
 	
 	
 	public void CheckHorizontal(){
-		if (Player == true){ 		//white
+		if (Player == true){ 		
 			//System.out.println(theButtons[GetActionCommand-1].getBackground().toString());
 			for(int o = 7; o >= 0; o --){
 					
 				if(twoDim[GetActionCommand/8][o].toString().equals("cWHITE")){
+					//if((twoDim[GetActionCommand/8][o+1].toString().equals("cWHITE"))
+					//||(twoDim[GetActionCommand/8][o-1].toString().equals("cWHITE"))){
+						//break;
+					//}
 					if(o<7){
 					if(twoDim[GetActionCommand/8][o+1].toString().equals("cBLACK")){
 						
 						if(((o+1) != 7)&&(twoDim[GetActionCommand/8][o+2].toString().equals("cWHITE"))){
 							twoDim[GetActionCommand/8][o+1] = Chips.cWHITE;
+							HorizontalOutput = true;
 							
 							
 							if((!theButtons[GetActionCommand-1].getBackground().toString().equals("java.awt.Color[r=0,g=255,b=0]"))){
 							theButtons[GetActionCommand-1].setBackground(Color.WHITE);
+							HorizontalOutput = true;
 							}else{
 								theButtons[GetActionCommand+1].setBackground(Color.WHITE);
+								HorizontalOutput = true;
 							}
 							
 							
@@ -399,6 +424,7 @@ public class Grid extends JFrame implements ActionListener {
 									&&(!theButtons[GetActionCommand+2].getBackground().toString().equals("java.awt.Color[r=0,g=0,b=0]"))){
 									theButtons[GetActionCommand-1].setBackground(Color.WHITE);
 									theButtons[GetActionCommand+1].setBackground(Color.WHITE);
+									HorizontalOutput = true;
 								}
 							
 							
@@ -408,6 +434,7 @@ public class Grid extends JFrame implements ActionListener {
 									if(twoDim[GetActionCommand/8][o+3].toString().equals("cWHITE")){
 										twoDim[GetActionCommand/8][o+1] = Chips.cWHITE;
 										twoDim[GetActionCommand/8][o+2] = Chips.cWHITE;
+										HorizontalOutput = true;
 										
 										
 										
@@ -415,9 +442,11 @@ public class Grid extends JFrame implements ActionListener {
 										if((!theButtons[GetActionCommand-1].getBackground().toString().equals("java.awt.Color[r=0,g=255,b=0]"))){
 											theButtons[GetActionCommand-1].setBackground(Color.WHITE);
 											theButtons[GetActionCommand-2].setBackground(Color.WHITE);
+											HorizontalOutput = true;
 											}else{
 												theButtons[GetActionCommand+1].setBackground(Color.WHITE);
 												theButtons[GetActionCommand+2].setBackground(Color.WHITE);
+												HorizontalOutput = true;
 											}
 										
 										
@@ -427,6 +456,7 @@ public class Grid extends JFrame implements ActionListener {
 											theButtons[GetActionCommand-2].setBackground(Color.WHITE);
 											theButtons[GetActionCommand+1].setBackground(Color.WHITE);
 											theButtons[GetActionCommand-2].setBackground(Color.WHITE);
+											HorizontalOutput = true;
 										}
 										
 										
@@ -438,6 +468,7 @@ public class Grid extends JFrame implements ActionListener {
 												twoDim[GetActionCommand/8][o+1] = Chips.cWHITE;
 												twoDim[GetActionCommand/8][o+2] = Chips.cWHITE;
 												twoDim[GetActionCommand/8][o+3] = Chips.cWHITE;
+												HorizontalOutput = true;
 												
 												
 												
@@ -445,10 +476,12 @@ public class Grid extends JFrame implements ActionListener {
 													theButtons[GetActionCommand-1].setBackground(Color.WHITE);
 													theButtons[GetActionCommand-2].setBackground(Color.WHITE);
 													theButtons[GetActionCommand-3].setBackground(Color.WHITE);
+													HorizontalOutput = true;
 													}else{
 														theButtons[GetActionCommand+1].setBackground(Color.WHITE);
 														theButtons[GetActionCommand+2].setBackground(Color.WHITE);
 														theButtons[GetActionCommand+3].setBackground(Color.WHITE);
+														HorizontalOutput = true;
 													}
 												
 												
@@ -462,6 +495,7 @@ public class Grid extends JFrame implements ActionListener {
 													theButtons[GetActionCommand+1].setBackground(Color.WHITE);
 													theButtons[GetActionCommand+2].setBackground(Color.WHITE);
 													theButtons[GetActionCommand+3].setBackground(Color.WHITE);
+													HorizontalOutput = true;
 												}
 												
 												
@@ -473,6 +507,7 @@ public class Grid extends JFrame implements ActionListener {
 												twoDim[GetActionCommand/8][o+1] = Chips.cWHITE;
 												twoDim[GetActionCommand/8][o+1] = Chips.cWHITE;
 												twoDim[GetActionCommand/8][o+1] = Chips.cWHITE;
+												HorizontalOutput = true;
 												
 												
 												
@@ -481,11 +516,13 @@ public class Grid extends JFrame implements ActionListener {
 													theButtons[GetActionCommand-2].setBackground(Color.WHITE);
 													theButtons[GetActionCommand-3].setBackground(Color.WHITE);
 													theButtons[GetActionCommand-4].setBackground(Color.WHITE);
+													HorizontalOutput = true;
 													}else{
 														theButtons[GetActionCommand+1].setBackground(Color.WHITE);
 														theButtons[GetActionCommand+2].setBackground(Color.WHITE);
 														theButtons[GetActionCommand+3].setBackground(Color.WHITE);
 														theButtons[GetActionCommand+4].setBackground(Color.WHITE);
+														HorizontalOutput = true;
 													}
 												
 												
@@ -500,6 +537,7 @@ public class Grid extends JFrame implements ActionListener {
 													theButtons[GetActionCommand+2].setBackground(Color.WHITE);
 													theButtons[GetActionCommand+3].setBackground(Color.WHITE);
 													theButtons[GetActionCommand+4].setBackground(Color.WHITE);
+													HorizontalOutput = true;
 												}
 												
 												
@@ -513,6 +551,7 @@ public class Grid extends JFrame implements ActionListener {
 												twoDim[GetActionCommand/8][o+3] = Chips.cWHITE;
 												twoDim[GetActionCommand/8][o+4] = Chips.cWHITE;
 												twoDim[GetActionCommand/8][o+5] = Chips.cWHITE;
+												HorizontalOutput = true;
 												
 												
 												
@@ -522,12 +561,14 @@ public class Grid extends JFrame implements ActionListener {
 													theButtons[GetActionCommand-3].setBackground(Color.WHITE);
 													theButtons[GetActionCommand-4].setBackground(Color.WHITE);
 													theButtons[GetActionCommand-5].setBackground(Color.WHITE);
+													HorizontalOutput = true;
 													}else{
 														theButtons[GetActionCommand+1].setBackground(Color.WHITE);
 														theButtons[GetActionCommand+2].setBackground(Color.WHITE);
 														theButtons[GetActionCommand+3].setBackground(Color.WHITE);
 														theButtons[GetActionCommand+4].setBackground(Color.WHITE);
 														theButtons[GetActionCommand+5].setBackground(Color.WHITE);
+														HorizontalOutput = true;
 													}
 												
 												
@@ -543,6 +584,7 @@ public class Grid extends JFrame implements ActionListener {
 													theButtons[GetActionCommand+3].setBackground(Color.WHITE);
 													theButtons[GetActionCommand+4].setBackground(Color.WHITE);
 													theButtons[GetActionCommand+5].setBackground(Color.WHITE);
+													HorizontalOutput = true;
 												}
 												
 												
@@ -574,6 +616,7 @@ public class Grid extends JFrame implements ActionListener {
 										twoDim[GetActionCommand/8][o-4] = Chips.cWHITE;
 										twoDim[GetActionCommand/8][o-5] = Chips.cWHITE;
 										twoDim[GetActionCommand/8][o-6] = Chips.cWHITE;
+										HorizontalOutput = true;
 								
 								
 								if((!theButtons[GetActionCommand-1].getBackground().toString().equals("java.awt.Color[r=0,g=255,b=0]"))){
@@ -583,6 +626,7 @@ public class Grid extends JFrame implements ActionListener {
 									theButtons[GetActionCommand-4].setBackground(Color.WHITE);
 									theButtons[GetActionCommand-5].setBackground(Color.WHITE);
 									theButtons[GetActionCommand-6].setBackground(Color.WHITE);
+									HorizontalOutput = true;
 									}
 								
 								
@@ -596,6 +640,7 @@ public class Grid extends JFrame implements ActionListener {
 									theButtons[GetActionCommand-4].setBackground(Color.WHITE);
 									theButtons[GetActionCommand-5].setBackground(Color.WHITE);
 									theButtons[GetActionCommand-6].setBackground(Color.WHITE);
+									HorizontalOutput = true;
 								}
 								
 								
@@ -613,23 +658,31 @@ public class Grid extends JFrame implements ActionListener {
 	for(int o = 7; o >= 0; o --){
 		
 	if(twoDim[GetActionCommand/8][o].toString().equals("cBLACK")){
+		//if((twoDim[GetActionCommand/8][o+1].toString().equals("cBLACK"))
+				//||(twoDim[GetActionCommand/8][o-1].toString().equals("cBLACK"))){
+					//break;
+				//}
 		if(o<7){
 		if(twoDim[GetActionCommand/8][o+1].toString().equals("cWHITE")){
 			
 			if(((o+1) != 7)&&(twoDim[GetActionCommand/8][o+2].toString().equals("cBLACK"))){
 				twoDim[GetActionCommand/8][o+1] = Chips.cBLACK;
+				HorizontalOutput = true;
 				
 				
 				if((!theButtons[GetActionCommand-1].getBackground().toString().equals("java.awt.Color[r=0,g=255,b=0]"))){
 					theButtons[GetActionCommand-1].setBackground(Color.BLACK);
+					HorizontalOutput = true;
 					}else{
 						theButtons[GetActionCommand+1].setBackground(Color.BLACK);
+						HorizontalOutput = true;
 					}
 				
 				
 				if((!theButtons[GetActionCommand-1].getBackground().toString().equals("java.awt.Color[r=0,g=255,b=0]"))&&(!theButtons[GetActionCommand+1].getBackground().toString().equals("java.awt.Color[r=0,g=255,b=0]"))){
 					theButtons[GetActionCommand-1].setBackground(Color.WHITE);
 					theButtons[GetActionCommand+1].setBackground(Color.WHITE);
+					HorizontalOutput = true;
 				}
 				
 				
@@ -639,13 +692,16 @@ public class Grid extends JFrame implements ActionListener {
 						if(twoDim[GetActionCommand/8][o+3].toString().equals("cBLACK")){
 							twoDim[GetActionCommand/8][o+1] = Chips.cBLACK;
 							twoDim[GetActionCommand/8][o+2] = Chips.cBLACK;
+							HorizontalOutput = true;
 							
 							if((!theButtons[GetActionCommand-1].getBackground().toString().equals("java.awt.Color[r=0,g=255,b=0]"))){
 								theButtons[GetActionCommand-1].setBackground(Color.BLACK);
 								theButtons[GetActionCommand-2].setBackground(Color.BLACK);
+								HorizontalOutput = true;
 								}else{
 									theButtons[GetActionCommand+1].setBackground(Color.BLACK);
 									theButtons[GetActionCommand+2].setBackground(Color.BLACK);
+									HorizontalOutput = true;
 								}
 							
 							
@@ -655,6 +711,7 @@ public class Grid extends JFrame implements ActionListener {
 								theButtons[GetActionCommand+1].setBackground(Color.WHITE);
 								theButtons[GetActionCommand-2].setBackground(Color.WHITE);
 								theButtons[GetActionCommand+2].setBackground(Color.WHITE);
+								HorizontalOutput = true;
 							}
 							
 							
@@ -665,16 +722,19 @@ public class Grid extends JFrame implements ActionListener {
 									twoDim[GetActionCommand/8][o+1] = Chips.cBLACK;
 									twoDim[GetActionCommand/8][o+2] = Chips.cBLACK;
 									twoDim[GetActionCommand/8][o+3] = Chips.cBLACK;
+									HorizontalOutput = true;
 									
 									
 									if((!theButtons[GetActionCommand-1].getBackground().toString().equals("java.awt.Color[r=0,g=255,b=0]"))){
 										theButtons[GetActionCommand-1].setBackground(Color.BLACK);
 										theButtons[GetActionCommand-2].setBackground(Color.BLACK);
 										theButtons[GetActionCommand-3].setBackground(Color.BLACK);
+										HorizontalOutput = true;
 										}else{
 											theButtons[GetActionCommand+1].setBackground(Color.BLACK);
 											theButtons[GetActionCommand+2].setBackground(Color.BLACK);
 											theButtons[GetActionCommand+3].setBackground(Color.BLACK);
+											HorizontalOutput = true;
 										}
 									
 									
@@ -686,6 +746,7 @@ public class Grid extends JFrame implements ActionListener {
 										theButtons[GetActionCommand+2].setBackground(Color.WHITE);
 										theButtons[GetActionCommand-3].setBackground(Color.WHITE);
 										theButtons[GetActionCommand+3].setBackground(Color.WHITE);
+										HorizontalOutput = true;
 									}
 									
 									
@@ -697,6 +758,7 @@ public class Grid extends JFrame implements ActionListener {
 									twoDim[GetActionCommand/8][o+2] = Chips.cBLACK;
 									twoDim[GetActionCommand/8][o+3] = Chips.cBLACK;
 									twoDim[GetActionCommand/8][o+4] = Chips.cBLACK;
+									HorizontalOutput = true;
 									
 									
 									if((!theButtons[GetActionCommand-1].getBackground().toString().equals("java.awt.Color[r=0,g=255,b=0]"))){
@@ -704,11 +766,13 @@ public class Grid extends JFrame implements ActionListener {
 										theButtons[GetActionCommand-2].setBackground(Color.BLACK);
 										theButtons[GetActionCommand-3].setBackground(Color.BLACK);
 										theButtons[GetActionCommand-4].setBackground(Color.BLACK);
+										HorizontalOutput = true;
 										}else{
 											theButtons[GetActionCommand+1].setBackground(Color.BLACK);
 											theButtons[GetActionCommand+2].setBackground(Color.BLACK);
 											theButtons[GetActionCommand+3].setBackground(Color.BLACK);
 											theButtons[GetActionCommand+4].setBackground(Color.BLACK);
+											HorizontalOutput = true;
 										}
 									
 									if((!theButtons[GetActionCommand-1].getBackground().toString().equals("java.awt.Color[r=0,g=255,b=0]"))&&(!theButtons[GetActionCommand+1].getBackground().toString().equals("java.awt.Color[r=0,g=255,b=0]"))){
@@ -720,6 +784,7 @@ public class Grid extends JFrame implements ActionListener {
 										theButtons[GetActionCommand+3].setBackground(Color.WHITE);
 										theButtons[GetActionCommand-4].setBackground(Color.WHITE);
 										theButtons[GetActionCommand+4].setBackground(Color.WHITE);
+										HorizontalOutput = true;
 									}
 									
 									
@@ -732,6 +797,7 @@ public class Grid extends JFrame implements ActionListener {
 									twoDim[GetActionCommand/8][o+3] = Chips.cBLACK;
 									twoDim[GetActionCommand/8][o+4] = Chips.cBLACK;
 									twoDim[GetActionCommand/8][o+5] = Chips.cBLACK;
+									HorizontalOutput = true;
 									
 									
 									
@@ -742,12 +808,14 @@ public class Grid extends JFrame implements ActionListener {
 										theButtons[GetActionCommand-3].setBackground(Color.BLACK);
 										theButtons[GetActionCommand-4].setBackground(Color.BLACK);
 										theButtons[GetActionCommand-5].setBackground(Color.BLACK);
+										HorizontalOutput = true;
 										}else{
 											theButtons[GetActionCommand+1].setBackground(Color.BLACK);
 											theButtons[GetActionCommand+2].setBackground(Color.BLACK);
 											theButtons[GetActionCommand+3].setBackground(Color.BLACK);
 											theButtons[GetActionCommand+4].setBackground(Color.BLACK);
 											theButtons[GetActionCommand+5].setBackground(Color.BLACK);
+											HorizontalOutput = true;
 										}
 									
 									
@@ -762,6 +830,7 @@ public class Grid extends JFrame implements ActionListener {
 										theButtons[GetActionCommand+4].setBackground(Color.WHITE);
 										theButtons[GetActionCommand-5].setBackground(Color.WHITE);
 										theButtons[GetActionCommand+5].setBackground(Color.WHITE);
+										HorizontalOutput = true;
 									}
 									
 									
@@ -793,6 +862,7 @@ public class Grid extends JFrame implements ActionListener {
 		twoDim[GetActionCommand/8][o-4] = Chips.cBLACK;
 		twoDim[GetActionCommand/8][o-5] = Chips.cBLACK;
 		twoDim[GetActionCommand/8][o-6] = Chips.cBLACK;
+		HorizontalOutput = true;
 		
 		
 		if((!theButtons[GetActionCommand-1].getBackground().toString().equals("java.awt.Color[r=0,g=255,b=0]"))){
@@ -802,6 +872,7 @@ public class Grid extends JFrame implements ActionListener {
 			theButtons[GetActionCommand-4].setBackground(Color.BLACK);
 			theButtons[GetActionCommand-5].setBackground(Color.BLACK);
 			theButtons[GetActionCommand-6].setBackground(Color.BLACK);
+			HorizontalOutput = true;
 			}
 					
 		
@@ -813,6 +884,7 @@ public class Grid extends JFrame implements ActionListener {
 			theButtons[GetActionCommand-4].setBackground(Color.WHITE);
 			theButtons[GetActionCommand-5].setBackground(Color.WHITE);
 			theButtons[GetActionCommand-6].setBackground(Color.WHITE);
+			HorizontalOutput = true;
 			}
 							
 									}
@@ -855,10 +927,11 @@ public class Grid extends JFrame implements ActionListener {
 		//System.out.println(arg0.getActionCommand());
 		//System.out.println(Player);
 		
-		
+		HorizontalOutput = false;
+		VerticalOutput = false;
 		
 		GetActionCommand = Integer.parseInt(arg0.getActionCommand());
-		previousGetAction = GetActionCommand;
+		
 		
 		
 		
@@ -902,6 +975,7 @@ public class Grid extends JFrame implements ActionListener {
 					checkercount += 1;
 					
 				}
+				
 				CheckHorizontal();
 				if(HorizontalOutput == false){
 					checkercount += 1;
@@ -911,13 +985,23 @@ public class Grid extends JFrame implements ActionListener {
 				
 				if(checkercount == 2){
 					JOptionPane.showMessageDialog(null, "Error player " + BorW + " moved incorrectly, look at the rules and try again.");
+					theButtons[Integer.parseInt(arg0.getActionCommand())].setBackground(Color.GREEN);
+					twoDim[Integer.parseInt(arg0.getActionCommand())/8][Integer.parseInt(arg0.getActionCommand())%8] = Chips.EMPTY;
+					
+					refreshtheJLabel();
+					checkercount = 0;
+					
+					HorizontalOutput = false;
+					VerticalOutput = false;
+					
+					break;
+					
 				}
 				
 				
 				
 				//System.out.println(twoDim[Integer.parseInt(arg0.getActionCommand())/8][Integer.parseInt(arg0.getActionCommand())%8]);
 				refreshtheJLabel();
-				TurnCounter++;
 				Player = false;
 				
 				checkercount = 0;
@@ -943,6 +1027,16 @@ public class Grid extends JFrame implements ActionListener {
 				
 				if(checkercount == 2){
 					JOptionPane.showMessageDialog(null, "Error player " + BorW + " moved incorrectly, look at the rules and try again.");
+					theButtons[Integer.parseInt(arg0.getActionCommand())].setBackground(Color.GREEN);
+					twoDim[Integer.parseInt(arg0.getActionCommand())/8][Integer.parseInt(arg0.getActionCommand())%8] = Chips.EMPTY;
+					
+					refreshtheJLabel();
+					checkercount = 0;
+					
+					HorizontalOutput = false;
+					VerticalOutput = false;
+					
+					break;
 				}
 				
 				
@@ -950,7 +1044,6 @@ public class Grid extends JFrame implements ActionListener {
 				
 				//System.out.println(twoDim[Integer.parseInt(arg0.getActionCommand())/8][Integer.parseInt(arg0.getActionCommand())%8]);
 				refreshtheJLabel();
-				TurnCounter++;
 				Player = true;
 				
 				
